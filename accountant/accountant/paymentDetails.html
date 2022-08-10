@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="../img/profile/blue-shield-and-banner-emblem.png">
+    <title>Sunshine School</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="../library/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!--This page css - Morris CSS -->
+    <link href="../library/plugins/morrisjs/morris.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="../css/style.css" rel="stylesheet">
+    <!-- You can change the theme colors from here -->
+    
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body class="fix-header card-no-border logo-center">
+    <!-- ============================================================== -->
+    <!-- Preloader - style you can find in spinners.css -->
+    <!-- ============================================================== -->
+    <div class="preloader">
+        <svg class="circular" viewBox="25 25 50 50">
+            <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" /> </svg>
+    </div>
+    <!-- ============================================================== -->
+    <!-- Main wrapper - style you can find in pages.scss -->
+    <!-- ============================================================== -->
+    <div id="main-wrapper">
+        <!-- ============================================================== -->
+        <!-- Topbar header - style you can find in pages.scss -->
+        <!-- ============================================================== -->
+        <header class="topbar chimaPrimaryColor">
+            <nav class="navbar top-navbar navbar-expand-md navbar-light chimaPrimaryColor">
+                <!-- ============================================================== -->
+                <!-- Logo -->
+                <!-- ============================================================== -->
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="index.html">
+                        <!-- Logo icon --><b>
+                            <!--You can put here icon as well // <i class="wi wi-sunset"></i> //-->
+                            <!-- Dark Logo icon -->
+                            <img src="../img/chris.png" width="30" alt="Sunshine" class="dark-logo" />
+                            <!-- Light Logo icon -->
+                            <img src="../img/chris.png" width="30" alt="Sunshine" class="light-logo" />
+                        </b>
+                        <!--End Logo icon -->
+                        <!-- Logo text -->
+                        <span style="font-size: 25px; font-weight: 500; color: white;">
+                            Sunshine
+                        </span> 
+                    </a>
+                </div>
+                <!-- ============================================================== -->
+                <!-- End Logo -->
+                <!-- ============================================================== -->
+                <div class="navbar-collapse">
+                    <!-- ============================================================== -->
+                    <!-- toggle and nav items -->
+                    <!-- ============================================================== -->
+                    <ul class="navbar-nav mr-auto mt-md-0">
+                        <!-- This is  -->
+                        <li class="nav-item"> <a class="nav-link nav-toggler hidden-md-up text-muted waves-effect waves-dark" href="#chimaNavBar"><i class="mdi mdi-menu"></i></a> </li>
+                        <!-- ============================================================== -->
+                        
+                    </ul>
+                    <!-- ============================================================== -->
+                    <!-- User profile and search -->
+                    <!-- ============================================================== -->
+                    <ul class="navbar-nav my-lg-0">
+                       
+                        <!-- Profile -->
+                        <!-- ============================================================== -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-muted waves-effect waves-dark" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" ><img src="../img/jj.jfif" alt="user" class="profile-pic"  /><b style="color: white;">Mr. HarmLiz GI</b></a>
+                            <div class="dropdown-menu dropdown-menu-right scale-up">
+                                <ul class="dropdown-user">
+                                    <li>
+                                        <div class="dw-user-box">
+                                            <div class="u-img"><img src="../img/jj.jfif" alt="user"></div>
+                                            <div class="u-text">
+                                                <h4>Mr. HarmLiz GI</h4>
+                                                <p class="text-muted">HarmLiz2010@gmail.com</p><a href="profile.html" class="btn btn-rounded btn-sm chimaPrimaryColor">View Profile</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="#"><i class="fa fa-power-off"></i> Logout</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!-- ============================================================== -->
+        <!-- End Topbar header -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Left Sidebar - style you can find in sidebar.scss  -->
+        <!-- ============================================================== -->
+        <!-- Sidebar navigation-->
+        <nav class="navbar navbar-expand-lg navbar-white bg-white">
+                               
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+              <ul class="navbar-nav mr-auto">
+
+                <li class="nav-item">
+                  <a class="nav-link chimaTextPrimary" href="index.html">
+                    <i class="mdi mdi-gauge chimaTextPrimary"></i> Dashboard</a>
+                </li>
+
+             
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle chimaTextPrimary" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="mdi mdi-account-multiple" aria-hidden="true"></i> Charges
+                    </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item chimaTextPrimary" href="chargeSetting.html">Charge Setting</a>
+                            
+                            <a class="dropdown-item chimaTextPrimary" href="chargeStructure.html">Charge Structure</a>
+                            
+                         
+                        </div>
+                
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link chimaTextPrimary"  href="paymentList.html"><i class="mdi mdi-account-multiple" aria-hidden="true"></i> Payments</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link chimaTextPrimary"  href="incomeAndExpenditure.html"><i class="mdi mdi-account-multiple" aria-hidden="true"></i> Income & Expenditure</a>
+                </li>
+
+               
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle chimaTextPrimary" href="#"  id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="mdi mdi-chart-bar" aria-hidden="true"></i> School Staff
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                       
+                        <a class="dropdown-item chimaTextPrimary" href="staffSalarySchedule.html">Salary Schedule</a>
+                       
+                        <a class="dropdown-item chimaTextPrimary" href="salaries.html">Staff Salary</a>                                 
+                      
+                    </div>
+                </li>
+
+
+
+              </ul>
+            
+            </div>
+          </nav>
+        <!-- End Sidebar navigation -->
+        <!-- ============================================================== -->
+        <!-- End Left Sidebar - style you can find in sidebar.scss  -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Page wrapper  -->
+        <!-- ============================================================== -->
+        <div class="page-wrapper" style="margin-top: -80px;">
+            <!-- ============================================================== -->
+            <!-- Bread crumb and right sidebar toggle -->
+            <!-- ============================================================== -->
+            <div class="row page-titles">
+                <div class="col-md-10 align-self-center">
+                    <h2 class="text-themecolor" style="color: black; font-weight: 400;">Payment Details</h2>
+                </div>
+                <div class="col-md-2 align-self-center" >
+                   
+                </div>
+               
+                <div class="">
+                    <button class="right-side-toggle waves-effect waves-light btn-inverse btn btn-circle btn-sm pull-right m-l-10"><i class="ti-settings text-white"></i></button>
+                </div>
+            </div>
+            <!-- ============================================================== -->
+            <!-- End Bread crumb and right sidebar toggle -->
+            <!-- ============================================================== -->
+            <!-- ============================================================== -->
+            <!-- Container fluid  -->
+            <!-- ============================================================== -->
+            <div class="container-fluid">
+                
+                <!-- ============================================================== -->
+                <!-- Start Page Content -->
+                <!-- ============================================================== -->
+                <div class="row">
+                    <div class="col-12">
+                            
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title" style="color: red;">Payment Details for Adaobi Eze</h4>
+                                <h6 class="card-subtitle">The full payment list for Adaobi Eze</h6>
+
+                                <form style="float: right; margin-top: -60px;">
+                                    <div class="form-group">
+                                        <select class="form-control chimaPrimaryBorderColor" style="background: white; border-width: 1px; border-style: solid;">
+                                            <option disabled selected>Select Term/Semester</option>
+                                          
+                                        </select>
+                                    </div>
+                                </form>
+
+                                <form style="float: right; margin-top: -60px; margin-right: 10px;">
+                                    <div class="form-group">
+                                        <select class="form-control chimaPrimaryBorderColor" style="background: white; border-width: 1px; border-style: solid;">
+                                            <option disabled selected>Select Class</option>
+                                          
+                                        </select>
+                                    </div>
+                                </form>
+
+                                <div class="row m-t-40" style="margin: 30px;">
+                                    <!-- Column -->
+                                    <div class="col-md-6 col-lg-6 col-xlg-6">
+                                        <div class="card" style="background: #0DCE0D;">
+                                            <div class="box text-center" style="margin-bottom: 20px;">
+                                                <h6 class="text-white">Total Amount Paid</h6>
+                                                <h1 class="font-light text-white">#100,000</h1>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Column -->
+                                    <div class="col-md-6 col-lg-6 col-xlg-6">
+                                        <div class="card" style="background: #FF8585;">
+                                            <div class="box text-center" style="margin-bottom: 20px;">
+                                                <h6 class="text-white">Total Balance Remaining</h6>
+                                                <h1 class="font-light text-white">#20,000</h1>
+                                            </div>
+                                        </div>
+                                    </div>
+                                  
+                                </div>
+                                
+                                <div class="table-responsive m-t-40">
+                                    <table id="example23" class="table m-t-30 table-hover no-wrap contact-list table-striped">                                        
+                                        <thead>
+                                            <tr>
+                                                <th style="font-weight: 700;">ID#</th>
+                                                <th style="font-weight: 700;">Title</th>
+                                                <th style="font-weight: 700;">Amount</th>
+                                                <th style="font-weight: 700;">Payment Status</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>01</td>
+                                                <td>School Fees</td>
+                                                <td>#80,000</td>
+                                                <td><span class="label label-success font-weight-100" style="background: #4DDC4D;">Paid</span></td>
+                                                
+                                            </tr>
+
+                                            <tr>
+                                                <td>02</td>
+                                                <td>P.T.A Levy</td>
+                                                <td>#2,000</td>
+                                                <td><span class="label label-success font-weight-100" style="background: #4DDC4D;">Paid</span></td>
+                                                
+                                            </tr>
+
+                                            <tr>
+                                                <td>03</td>
+                                                <td>Sport Wear</td>
+                                                <td>#10,000</td>
+                                                <td><span class="label label-success font-weight-100" style="background: #ff0000;">Unpaid</span></td>
+                                                
+                                            </tr>
+
+                                            <tr>
+                                                <td>04</td>
+                                                <td>School Uniform</td>
+                                                <td>#10,000</td>
+                                                <td><span class="label label-success font-weight-100" style="background: #ff0000;">Unpaid</span></td>
+                                                
+                                            </tr>
+
+                                            <tr>
+                                                <td>05</td>
+                                                <td>Books</td>
+                                                <td>#10,000</td>
+                                                <td><span class="label label-success font-weight-100" style="background: #4DDC4D;">Paid</span></td>
+                                                
+                                            </tr>
+
+                                            <tr>
+                                                <td>06</td>
+                                                <td>Excursion</td>
+                                                <td>#50,000</td>
+                                                <td><span class="label label-success font-weight-100" style="background: #4DDC4D;">Paid</span></td>
+                                                
+                                            </tr>
+
+                                            <tr>
+                                                <td>07</td>
+                                                <td>Medical</td>
+                                                <td>#5,000</td>
+                                                <td><span class="label label-success font-weight-100" style="background: #4DDC4D;">Paid</span></td>
+                                                
+                                            </tr>
+
+                                            <tr>
+                                                <td>08</td>
+                                                <td>After School Lession</td>
+                                                <td>#10,000</td>
+                                                <td><span class="label label-success font-weight-100" style="background: #4DDC4D;">Paid</span></td>
+                                                
+                                            </tr>
+
+                                            
+                                           
+                                        
+                                        </tbody>
+                                    </table>
+                                </div>
+                                 <!---=================Right sidebar=======================-->
+                                 <div class="right-sidebar">
+                                    <div class="slimscrollright">
+                                        <div class="rpanel-title">School Accountant Documentation<span><i class="ti-close right-side-toggle"></i></span> </div>
+                                        <div class="r-panel-body">
+                                            
+                                            <ul>
+                                                <li>
+                                                    <a href="documentation.html" class="chimaTextPrimary">
+                                                        <i class="fa fa-folder"></i>
+                                                        <span style="margin-left: 5px;">Dashboard</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="documentation.html" class="chimaTextPrimary">
+                                                        <i class="fa fa-folder"></i>
+                                                        <span style="margin-left: 5px;">Profile</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="documentation.html" class="chimaTextPrimary">
+                                                        <i class="fa fa-folder"></i>
+                                                        <span style="margin-left: 5px;">Charges</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="documentation.html" class="chimaTextPrimary">
+                                                        <i class="fa fa-folder"></i>
+                                                        <span style="margin-left: 5px;">Payments</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="documentation.html" class="chimaTextPrimary">
+                                                        <i class="fa fa-folder"></i>
+                                                        <span style="margin-left: 5px;">Income & Expenditure</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="documentation.html" class="chimaTextPrimary">
+                                                        <i class="fa fa-folder"></i>
+                                                        <span style="margin-left: 5px;">School Staff</span>
+                                                    </a>
+                                                </li>
+                                               
+                                            
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--==================Right sidebar=======================-->
+                            </div>
+                        </div>
+                    
+                    </div>
+               
+                </div>
+                <!-- ============================================================== -->
+                <!-- End PAge Content -->
+                <!-- ============================================================== -->
+                <!-- ============================================================== -->
+               
+            </div>
+            <!-- ============================================================== -->
+            <!-- End Container fluid  -->
+            <!-- ============================================================== -->
+            <!-- ============================================================== -->
+            <!-- footer -->
+            <!-- ============================================================== -->
+            <footer class="footer">
+                © Sunshine International School
+                <br>
+                Powered by CHOV LLC
+            </footer>
+            <!-- ============================================================== -->
+            <!-- End footer -->
+            <!-- ============================================================== -->
+        </div>
+        <!-- ============================================================== -->
+        <!-- End Page wrapper  -->
+        <!-- ============================================================== -->
+    </div>
+    <!-- ============================================================== -->
+    <!-- End Wrapper -->
+    <!-- ============================================================== -->
+    <!-- ============================================================== -->
+    <!-- All Jquery -->
+    <!-- ============================================================== -->
+    <script src="../library/plugins/jquery/jquery.min.js"></script>
+    <!-- Bootstrap tether Core JavaScript -->
+    <script src="../library/plugins/bootstrap/js/popper.min.js"></script>
+
+    <script src="../library/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <!-- slimscrollbar scrollbar JavaScript -->
+    <script src="../js/jquery.slimscroll.js"></script>
+    <!--Wave Effects -->
+    <script src="../js/waves.js"></script>
+    <!--Menu sidebar -->
+    <script src="../js/sidebarmenu.js"></script>
+    <!--stickey kit -->
+    <script src="../library/plugins/sticky-kit-master/dist/sticky-kit.min.js"></script>
+    <script src="../library/plugins/sparkline/jquery.sparkline.min.js"></script>
+    <!--Custom JavaScript -->
+    <script src="../js/custom.min.js"></script>
+    <!--morris JavaScript -->
+    <script src="../library/plugins/raphael/raphael-min.js"></script>
+    <script src="../library/plugins/morrisjs/morris.min.js"></script>
+    <!-- sparkline chart -->
+    <!-- Footable -->
+    <script src="../library/plugins/footable/js/footable.all.min.js"></script>
+    <script src="../library/plugins/bootstrap-select/bootstrap-select.min.js" type="text/javascript"></script>
+    <!--FooTable init-->
+    <script src="../js/footable-init.js"></script>
+
+    <script src="../library/plugins/sparkline/jquery.sparkline.min.js"></script>
+    <script src="../js/dashboard4.js"></script>
+    <!-- ============================================================== -->
+    <!-- Style switcher -->
+    <!-- ============================================================== -->
+    <script src="../library/plugins/styleswitcher/jQuery.style.switcher.js"></script>
+    <script src="../library/plugins/datatables/jquery.dataTables.min.js"></script>
+    <!-- start - This is for export functionality only -->
+    <script src="https://cdn.datatables.net/buttons/1.2.2/js/dataTables.buttons.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/1.2.2/js/buttons.flash.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/2.5.0/jszip.min.js"></script>
+    <script src="https://cdn.rawgit.com/bpampuch/pdfmake/0.1.18/build/pdfmake.min.js"></script>
+    <script src="https://cdn.rawgit.com/bpampuch/pdfmake/0.1.18/build/vfs_fonts.js"></script>
+    <script src="https://cdn.datatables.net/buttons/1.2.2/js/buttons.html5.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/1.2.2/js/buttons.print.min.js"></script>
+    <!-- end - This is for export functionality only -->
+    <script>
+        $(document).ready(function() {
+            $('#myTable').DataTable();
+            $(document).ready(function() {
+                var table = $('#example').DataTable({
+                    "columnDefs": [{
+                        "visible": false,
+                        "targets": 2
+                    }],
+                    "order": [
+                        [2, 'asc']
+                    ],
+                    "displayLength": 25,
+                    "drawCallback": function(settings) {
+                        var api = this.api();
+                        var rows = api.rows({
+                            page: 'current'
+                        }).nodes();
+                        var last = null;
+                        api.column(2, {
+                            page: 'current'
+                        }).data().each(function(group, i) {
+                            if (last !== group) {
+                                $(rows).eq(i).before('<tr class="group"><td colspan="5">' + group + '</td></tr>');
+                                last = group;
+                            }
+                        });
+                    }
+                });
+                // Order by the grouping
+                $('#example tbody').on('click', 'tr.group', function() {
+                    var currentOrder = table.order()[0];
+                    if (currentOrder[0] === 2 && currentOrder[1] === 'asc') {
+                        table.order([2, 'desc']).draw();
+                    } else {
+                        table.order([2, 'asc']).draw();
+                    }
+                });
+            });
+        });
+        $('#example23').DataTable({
+            dom: 'Bfrtip',
+            buttons: [
+                'copy', 'csv', 'excel', 'pdf', 'print'
+            ]
+        });
+        </script>
+</body>
+
+</html>
