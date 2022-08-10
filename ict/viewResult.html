@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="../img/profile/blue-shield-and-banner-emblem.png">
+    <title>Sunshine School</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="../library/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../library/plugins/icheck/skins/all.css" rel="stylesheet">
+    <!-- Morries chart CSS -->
+    <link href="../library/plugins/morrisjs/morris.css" rel="stylesheet">   
+    <!-- Custom CSS -->
+    <link href="../css/style1.css" rel="stylesheet">
+    <!-- You can change the theme colors from here -->
+    <link href="../css/blue.css" id="theme" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body class="fix-header card-no-border">
+    <!-- ============================================================== -->
+    <!-- Preloader - style you can find in spinners.css -->
+    <!-- ============================================================== -->
+    <div class="preloader">
+        <svg class="circular" viewBox="25 25 50 50">
+            <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" /> </svg>
+    </div>
+    <!-- ============================================================== -->
+    <!-- Main wrapper - style you can find in pages.scss -->
+    <!-- ============================================================== -->
+    <div id="main-wrapper">
+        <!-- ============================================================== -->
+        <!-- Topbar header - style you can find in pages.scss -->
+        <!-- ============================================================== -->
+        <header class="topbar" id="navcolor">
+            <nav class="navbar top-navbar navbar-expand-md navbar-light">
+                <!-- ============================================================== -->
+                <!-- Logo -->
+                <!-- ============================================================== -->
+                <div class="navbar-header" id="sideBarColor" style="height: 60px;">
+                    <a class="navbar-brand" href="index.html">
+                        <!-- Logo icon --><b>
+                            <!--You can put here icon as well // <i class="wi wi-sunset"></i> //-->
+                            <!-- Dark Logo icon -->
+                           
+                        </b>
+                        <!--End Logo icon -->
+                        <!-- Logo text --><span>
+                         <!-- dark Logo text -->
+                         <img src="../img/schoollogo.png" width="100" style="margin-top: -25px;" alt="homepage" class="dark-logo" />
+                         <!-- Light Logo text -->    
+                         <img src="../img/schoollogo.png" width="100" style="margin-top: -25px;" class="light-logo" alt="homepage" /></span> </a>
+                </div>
+                <!-- ============================================================== -->
+                <!-- End Logo -->
+                <!-- ============================================================== -->
+                <div class="navbar-collapse">
+                    <!-- ============================================================== -->
+                    <!-- toggle and nav items -->
+                    <!-- ============================================================== -->
+                    <ul class="navbar-nav mr-auto mt-md-0">
+                        <!-- This is  -->
+                        <li class="nav-item"> <a class="nav-link nav-toggler hidden-md-up text-muted waves-effect waves-dark" href="javascript:void(0)"><i style="color: white;" class="mdi mdi-menu"></i></a> </li>
+                        <li class="nav-item m-l-10"> <a class="nav-link sidebartoggler hidden-sm-down text-muted waves-effect waves-dark" href="javascript:void(0)"><i style="color: white;" class="ti-menu"></i></a> </li>
+                        <!-- ============================================================== -->
+                        <!-- Comment -->
+                        <!-- ============================================================== -->
+                       
+                        <!-- ============================================================== -->
+                        <!-- End Comment -->
+                        <!-- ============================================================== -->
+                        <!-- ============================================================== -->
+                        <!-- Messages -->
+                        <!-- ============================================================== -->
+                        
+                        <!-- ============================================================== -->
+                        <!-- End Messages -->
+                        <!-- ============================================================== -->
+                        <!-- ============================================================== -->
+                        <!-- Messages -->
+                        <!-- ============================================================== -->
+                       
+                        <!-- ============================================================== -->
+                        <!-- End Messages -->
+                        <!-- ============================================================== -->
+                    </ul>
+                    <!-- ============================================================== -->
+                    <!-- User profile and search -->
+                    <!-- ============================================================== -->
+                    <ul class="navbar-nav my-lg-0">
+                        <!-- ============================================================== -->
+                        <!-- Search -->
+                        <!-- ============================================================== -->
+                        <!-- ============================================================== -->
+                        <!-- Language -->
+                        <!-- ============================================================== -->
+                        <!-- ============================================================== -->
+                        <!-- Profile -->
+                        <!-- ============================================================== -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-muted waves-effect waves-dark" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" ><img src="../img/jj.jfif" alt="user" class="profile-pic"  /><b style="color: white;">Mr. HarmLiz GI</b></a>
+                            <div class="dropdown-menu dropdown-menu-right scale-up">
+                                <ul class="dropdown-user">
+                                    <li>
+                                        <div class="dw-user-box">
+                                            <div class="u-img"><img src="../img/jj.jfif" alt="user"></div>
+                                            <div class="u-text">
+                                                <h4>Mr. HarmLiz GI</h4>
+                                                <p class="text-muted">Johnobi2010@gmail.com</p><a href="profile.html" style="background-color: red;" class="btn btn-rounded btn-danger btn-sm">View Profile</a></div>
+                                        </div>
+                                    </li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="#"><i class="fa fa-power-off"></i> Logout</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!-- ============================================================== -->
+        <!-- End Topbar header -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Left Sidebar - style you can find in sidebar.scss  -->
+        <!-- ============================================================== -->
+        <aside class="left-sidebar" id="sideBarColor">
+            <!-- Sidebar scroll-->
+            <div class="scroll-sidebar">
+                <!-- User profile -->
+                <div class="user-profile">
+                    <!-- User profile image -->
+                    <div class="profile-img"> <img src="../img/jj.jfif" alt="user" />
+                        <!-- this is blinking heartbit-->
+                        
+                    </div>
+                    <!-- User profile text-->
+                    <div class="profile-text">
+                        <h5 style="color: black;">Mr. HarmLiz GI</h5>
+                    </div>
+                </div>
+                <!-- End User profile text-->
+                <!-- Sidebar navigation-->
+                <nav class="sidebar-nav" style="overflow-x: hidden;" id="sideBarColor">
+                  <nav class="sidebar-nav" style="overflow-x: hidden;" id="sideBarColor">
+                    <ul id="sidebarnav">
+                        <li class="nav-devider"></li>
+                        
+                        <li> 
+                            <a href="index.html" id="generalColor" aria-expanded="false">
+                                <i class="mdi mdi-gauge" id="generalColor"></i>
+                                <span class="hide-menu">Dashboard</span>
+                            </a>
+                        </li>
+                        
+                        <li> 
+                            <a href="configurations.html" id="generalColor"  aria-expanded="false">
+                                <i class="fa fa-gears" id="generalColor"></i>
+                                <span class="hide-menu">Configurations</span>
+                            </a>                       
+                        </li>
+
+                        <li> 
+                            <a class="has-arrow waves-effect waves-dark" id="generalColor" href="#" aria-expanded="false">
+                                <i class="fa fa-group" id="generalColor"></i>
+                                <span class="hide-menu">Manage Users</span>
+                            </a>
+                            <ul aria-expanded="false" class="collapse">
+                                <li>
+                                    <a href="manageStaff.html" id="generalColor">
+                                        <i class="fa fa-user" id="generalColor"></i>
+                                        <span style="margin-left: 5px;">Staffs</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="students.html" id="generalColor">
+                                        <i class="fa fa-user" id="generalColor"></i>
+                                        <span style="margin-left: 5px;">Students</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="parent.html" id="generalColor">
+                                        <i class="fa fa-user" id="generalColor"></i>
+                                        <span style="margin-left: 5px;">Parents</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li> 
+                            <a class="has-arrow waves-effect waves-dark" id="generalColor" href="#" aria-expanded="false">
+                                <i class="fa fa-file-text-o" id="generalColor"></i>
+                                <span class="hide-menu">Result</span>
+                            </a>
+                            <ul aria-expanded="false" class="collapse">
+                                <li>
+                                    <a href="scoreSheet.html" id="generalColor">
+                                        <i class="fa fa-file-text-o" id="generalColor"></i>
+                                        <span style="margin-left: 5px;">Score Sheet</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="affectiveDomain.html" id="generalColor">
+                                        <i class="fa fa-file-text-o" id="generalColor"></i>
+                                        <span style="margin-left: 5px;">Affective Domain</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="behaviouralSheet.html" id="generalColor">
+                                        <i class="fa fa-file-text-o" id="generalColor"></i>
+                                        <span style="margin-left: 5px;">Behavioural Sheet</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="viewResult.html" id="generalColor">
+                                        <i class="fa fa-file-text-o" id="generalColor"></i>
+                                        <span style="margin-left: 5px;">View Result</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        
+                       
+
+                        <li> 
+                            <a href="bulkSms.html" id="generalColor" aria-expanded="false">
+                                <i class="mdi mdi-email" id="generalColor"></i>
+                                <span class="hide-menu">SMS</span>
+                            </a>
+                        </li>
+
+                        <li> 
+                            <a href="email.html" id="generalColor" aria-expanded="false">
+                                <i class="mdi mdi-gmail" id="generalColor"></i>
+                                <span class="hide-menu">Email</span>
+                            </a>
+                        </li>
+
+                        <li> 
+                            <a href="birthday.html" id="generalColor" aria-expanded="false">
+                                <i class="mdi mdi-gift" id="generalColor"></i>
+                                <span class="hide-menu">Birthday Message</span>
+                            </a>
+                        </li>
+
+                        <li> 
+                            <a href="documentation.html" id="generalColor" aria-expanded="false">
+                                <i class="fa fa-folder" id="generalColor"></i>
+                                <span class="hide-menu">Documentation</span>
+                            </a>
+                        </li>
+               
+                    </ul>
+
+                    <span style="bottom: 0; margin-left: 10px; position: absolute;">
+                        <a href="../login/login.html">
+                            <i class="fa fa-power-off" id="generalColor"></i>
+                            <span class="hide-menu" id="generalColor">Logout</span>
+                        </a>
+                    </span>
+                </nav>
+
+                    <span style="bottom: 0; margin-left: 10px; position: absolute;">
+                        <a href="../login/login.html">
+                            <i class="fa fa-power-off" id="generalColor"></i>
+                            <span class="hide-menu" id="generalColor">Logout</span>
+                        </a>
+                    </span>
+                </nav>
+                <!-- End Sidebar navigation -->
+            </div>
+            <!-- End Sidebar scroll-->
+        </aside>
+        <!-- ============================================================== -->
+        <!-- End Left Sidebar - style you can find in sidebar.scss  -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Page wrapper  -->
+        <!-- ============================================================== -->
+        <div class="page-wrapper">
+            <!-- ============================================================== -->
+            <!-- Bread crumb and right sidebar toggle -->
+            <!-- ============================================================== -->
+            <div class="row page-titles">
+                <div class="col-md-2 align-self-center">
+                    <h3>Result Sheet</h3>
+                </div>
+                <div class="col-md-2" style="margin-bottom: -20px;">
+                  <form>
+                      <div class="form-group">
+                          <select class="form-control chimaPrimaryBorderColor" style="background: white; border-width: 1px; border-style: solid; font-size: 14px;">
+                              <option disabled selected>Session</option>                              
+                          </select>
+                      </div>
+                  </form>
+              </div>
+              <div class="col-md-2" style="margin-bottom: -20px;">
+                <form>
+                    <div class="form-group">
+                        <select class="form-control chimaPrimaryBorderColor" style="background: white; border-width: 1px; border-style: solid; font-size: 14px;">
+                            <option disabled selected>Term</option>                              
+                        </select>
+                    </div>
+                </form>
+              </div>
+              <div class="col-md-2" style="margin-bottom: -20px;">
+                <form>
+                    <div class="form-group">
+                        <select class="form-control chimaPrimaryBorderColor" style="background: white; border-width: 1px; border-style: solid; font-size: 14px;">
+                            <option disabled selected>Class</option>
+                        </select>
+                    </div>
+                </form>
+              </div>
+              <div class="col-md-2" style="margin-bottom: -20px;">
+                <form>
+                    <div class="form-group">
+                        <select class="form-control chimaPrimaryBorderColor" style="background: white; border-width: 1px; border-style: solid; font-size: 14px;">
+                            <option disabled selected>Student Name</option>
+                        </select>
+                    </div>
+                </form>
+              </div>
+                            
+              <div class="col-md-2">
+                  <a href="#" type="button" class="btn chimaNormalBtn" style="width: 90px;">
+                      <span style="font-size: 14px;">Load</span>
+                  </a>
+              </div>
+            </div>
+
+
+
+            <div class="row">
+                <div class="col-md-9 align-self-center">
+                  
+                </div>
+
+                <div class="col-md-3">
+                    <a href="" style="color: #000000;"> <i class="fa fa-cloud-download"></i> Download</a>
+
+                    <a href="" style="color: #000000;"><i class="fa fa-print"></i> Print</a>
+                </div>
+               
+          </div>
+            <!-- ============================================================== -->
+            <!-- End Bread crumb and right sidebar toggle -->
+            <!-- ============================================================== -->
+            <!-- ============================================================== -->
+            <!-- Container fluid  -->
+            <!-- ============================================================== -->
+            <div class="container-fluid section1" id="printable">
+
+              <div class="card">
+                  <div class="card-body" style="color: black;">
+                      <div class="container rel">
+                      <p class="schname">St. Gregory's Catholic School</p>
+                      <p class="schloc">#28 PC Dike Cresent Asoloro, FCT, Abuja, Nigeria, 08127121186</p>
+          
+                      <div class="container-motto"">
+          
+                          <center>
+                              <p>Email: info@stgregorycatholicschools.com</p>
+                              <p>Website: www.stgregorycatholicschools.com</p>
+                          </center>
+                          
+                      <center>
+                      <img src="../img/schlogo1.png" class="img-fluid" alt="..." style="margin-bottom: 10px;">
+                          <p class="motto">Motto: Education is Light</p>
+                          <img src="../img/student.jfif" class="img-fluid studpic" alt="...">
+                          </center>
+                        </div>
+                      <h5 align="center" style="margin-top: 5px; font-size: 17px;">STUDENT PROGRESS REPORT FOR 3RD TERM, 2020/2021 SESSION</h5>
+                      
+                          
+                        <div class="info"  style="font-size: 14px;">
+                          <div class="row" style="margin: 5px;">
+                            <div class="col-4">
+                              <h5>CLASS: PRIMARY 2A</h5>
+                            </div>
+                            <div class="col-4">
+                              <h5>OVERALL GRADE: B</h5>
+                            </div>
+                            <div class="col-4">
+                              <h5>NUMBER IN CLASS: 33</h5>
+                            </div>    
+                              
+                          </div>
+                          <div class="row" style="margin: 5px;">
+                            <div class="col-4">
+                              <h5>NAME: JONATHAN UCHECHUKWU</h5>
+                            </div>
+                            <div class="col-4">
+                              <h5>ADMISSION NUMBER: SGCS/PUP/0104</h5>
+                            </div>
+                            <div class="col-4">
+                              <h5></h5>
+                            </div>    
+                              
+                          </div>
+                          <div class="row" style="margin: 5px;">
+                            <div class="col-4">
+                              <h5>SEX: MALE</h5>
+                            </div>
+                            <div class="col-4">
+                              <h5>SCHOOL: PRIMARY</h5>
+                            </div>
+                            <div class="col-4">
+                              <h5></h5>
+                            </div>    
+                              
+                          </div>
+                          </div>
+                          <p class="cognitive">COGNITIVE DOMAIN</p>
+                        
+                        <div class="result">
+                          <table class="results table-bordered tab">
+                          
+                            
+                              <tr>
+                                <th>SUBJECT(s)</th>
+                                <th>1ST CA</th>
+                                <th>2ND CA</th>
+                                <th>EXAM</th>
+                                <th>TOTAL</th>
+                                <th>GRADES</th>
+                                <th>POS</th>
+                                <th>OUT OF</th>
+                                <th>LOW</th>
+                                <th>HIGH</th>
+                                <th>CLASS AVS</th>
+                                <th>REMARK</th>
+                              </tr>
+                            
+                            <tbody>
+                              <tr>
+                                <th>BASIC SCI & TECH</th>
+                                  <td>19</td>
+                                  <td>20</td>
+                                  <td>60</td>
+                                  <td>99</td>
+                                  <td>A</td>
+                                  <td>1</td>
+                                  <td>34</td>
+                                  <td>0</td>
+                                  <td>99</td>
+                                  <td>65.2</td>
+                                  <td>EXCELLENT</td>
+                              </tr>
+                              <tr>
+                                <th>AGRIC. SCIENCE</th>
+                                <td>19</td>
+                                <td>20</td>
+                                <td>60</td>
+                                <td>99</td>
+                                <td>A</td>
+                                <td>1</td>
+                                <td>34</td>
+                                <td>0</td>
+                                <td>99</td>
+                                <td>65.2</td>
+                                <td>EXCELLENT</td>
+                              </tr>
+                              <tr>
+                                <th>fISHERY</th>
+                                <td>19</td>
+                                <td>20</td>
+                                <td>60</td>
+                                <td>99</td>
+                                <td>A</td>
+                                <td>1</td>
+                                <td>34</td>
+                                <td>0</td>
+                                <td>99</td>
+                                <td>65.2</td>
+                                <td>EXCELLENT</td>
+                              </tr>
+                              <tr>
+                                <th>BIOLOGY</th>
+                                <td>19</td>
+                                <td>20</td>
+                                <td>60</td>
+                                <td>99</td>
+                                <td>A</td>
+                                <td>1</td>
+                                <td>34</td>
+                                <td>0</td>
+                                <td>99</td>
+                                <td>65.2</td>
+                                <td>EXCELLENT</td>
+                              </tr>
+                              <tr>
+                                <th>CATERING</th>
+                                <td>19</td>
+                                <td>20</td>
+                                <td>60</td>
+                                <td>99</td>
+                                <td>A</td>
+                                <td>1</td>
+                                <td>34</td>
+                                <td>0</td>
+                                <td>99</td>
+                                <td>65.2</td>
+                                <td>EXCELLENT</td>
+                              </tr>
+                              <tr>
+                                <th>CHEMISTRY</th>
+                                <td>19</td>
+                                <td>20</td>
+                                <td>60</td>
+                                <td>99</td>
+                                <td>A</td>
+                                <td>1</td>
+                                <td>34</td>
+                                <td>0</td>
+                                <td>99</td>
+                                <td>65.2</td>
+                                <td>EXCELLENT</td>
+                              </tr>
+                              <tr>
+                                <th>LIT. in ENGLISH</th>
+                                <td>19</td>
+                                <td>20</td>
+                                <td>60</td>
+                                <td>99</td>
+                                <td>A</td>
+                                <td>1</td>
+                                <td>34</td>
+                                <td>0</td>
+                                <td>99</td>
+                                <td>65.2</td>
+                                <td>EXCELLENT</td>
+                              </tr>
+                              <tr>
+                                <th>PHYSICS</th>
+                                <td>19</td>
+                                <td>20</td>
+                                <td>60</td>
+                                <td>99</td>
+                                <td>A</td>
+                                <td>1</td>
+                                <td>34</td>
+                                <td>0</td>
+                                <td>99</td>
+                                <td>65.2</td>
+                                <td>EXCELLENT</td>
+                              </tr>
+                              <tr>
+                                <th>CHRISTIAN REL STUDIES</th>
+                                <td>19</td>
+                                <td>20</td>
+                                <td>60</td>
+                                <td>99</td>
+                                <td>A</td>
+                                <td>1</td>
+                                <td>34</td>
+                                <td>0</td>
+                                <td>99</td>
+                                <td>65.2</td>
+                                <td>EXCELLENT</td>
+                              </tr>
+                              <tr>
+                                <th>CIVIC EDUCATION</th>
+                                <td>19</td>
+                                <td>20</td>
+                                <td>60</td>
+                                <td>99</td>
+                                <td>A</td>
+                                <td>1</td>
+                                <td>34</td>
+                                <td>0</td>
+                                <td>99</td>
+                                <td>65.2</td>
+                                <td>EXCELLENT</td>
+                                </tr>
+                              <tr>
+                                <th>COMPUTER STUDIES</th>
+                                <td>19</td>
+                                <td>20</td>
+                                <td>60</td>
+                                <td>99</td>
+                                <td>A</td>
+                                <td>1</td>
+                                <td>34</td>
+                                <td>0</td>
+                                <td>99</td>
+                                <td>65.2</td>
+                                <td>EXCELLENT</td>
+                              </tr>
+                              <tr>
+                                <th>ENGLISH LANGUAGE</th>
+                                <td>19</td>
+                                <td>20</td>
+                                <td>60</td>
+                                <td>99</td>
+                                <td>A</td>
+                                <td>1</td>
+                                <td>34</td>
+                                <td>0</td>
+                                <td>99</td>
+                                <td>65.2</td>
+                                <td>EXCELLENT</td>
+                              </tr>
+                              <tr>
+                                <th>FINE ARTS</th>
+                                <td>19</td>
+                                <td>20</td>
+                                <td>60</td>
+                                <td>99</td>
+                                <td>A</td>
+                                <td>1</td>
+                                <td>34</td>
+                                <td>0</td>
+                                <td>99</td>
+                                <td>65.2</td>
+                                <td>EXCELLENT</td>
+                              </tr>
+                              <tr>
+                                <th>HAND WRITING</th>
+                                <td>19</td>
+                                <td>20</td>
+                                <td>60</td>
+                                <td>99</td>
+                                <td>A</td>
+                                <td>1</td>
+                                <td>34</td>
+                                <td>0</td>
+                                <td>99</td>
+                                <td>65.2</td>
+                                <td>EXCELLENT</td>
+                              </tr>
+                              <tr>
+                                <th>HOME ECONOMICS</th>
+                                <td>19</td>
+                                <td>20</td>
+                                <td>60</td>
+                                <td>99</td>
+                                <td>A</td>
+                                <td>1</td>
+                                <td>34</td>
+                                <td>0</td>
+                                <td>99</td>
+                                <td>65.2</td>
+                                <td>EXCELLENT</td>
+                              </tr>
+                              <tr>
+                                <th>MATHEMATICS</th>
+                                <td>19</td>
+                                <td>20</td>
+                                <td>60</td>
+                                <td>99</td>
+                                <td>A</td>
+                                <td>1</td>
+                                <td>34</td>
+                                <td>0</td>
+                                <td>99</td>
+                                <td>65.2</td>
+                                <td>EXCELLENT</td>
+                              </tr>
+                              <tr>
+                                <th>PHYSICAL AND HEALTH EDUCATION</th>
+                                <td>19</td>
+                                <td>20</td>
+                                <td>60</td>
+                                <td>99</td>
+                                <td>A</td>
+                                <td>1</td>
+                                <td>34</td>
+                                <td>0</td>
+                                <td>99</td>
+                                <td>65.2</td>
+                                <td>EXCELLENT</td>
+                              </tr>          
+                            </tbody>
+                          </table>
+                        </div>
+                        <div class="tots">
+                        <center>
+                                <p>Mark Obtainable: 1400</p>
+                                <p>Mark Obtained: 1115</p>
+                                <p>Percentage: 79.6%</p>
+                                <p>No. of Subjects: 14</p>
+                                <p>Class Avg(%): 59.4</p>
+                            </center>
+                        </div>
+          
+                        <div class="performance">
+                          <div class="row">
+                              <div class="col-4">                 
+                                <div class="chart">
+                                  <img src="../img/charta.png" width="270px" class="img-fluid" alt="...">
+                                </div>
+                              </div>
+          
+                              <div class="col-8">
+                                <div class="chart2">
+                                  <table class="table2" border="0" align="center">
+                                    <col style="width: 8%;">
+                                    <col style="width: 5%;">
+                                    <col style="width: 3%;">
+                                    <col style="width: 5%;">
+                                    <col style="width: 15%;">
+                                    <col style="width: 5%;">
+                                    <col style="width: 5%;">
+                                    <col style="width: 3%;">
+                                    
+                                    <tr style="width: 100%; border:none;">
+                                      
+                                      <th colspan="4">AFFECTIVE DOMAIN</th>
+                                      <th colspan="2">ATTENDANCE</th>
+                                      <th colspan="2">PSYCOMOTOR</th>
+                                      
+                                      
+                                    </tr>
+                                    <tr>
+                                      
+                                      <td>PUNCTUALITY:</td>
+                                      <td>4</td>
+                                      <td>HONESTY:</td>
+                                      <td>4</td>
+                                      <td>TIME SCHOOL OPENED:</td>
+                                      <td>114</td>
+                                      <td>LIBRARY:</td>
+                                      <td>4</td>
+                                    
+                                    </tr>
+                                    <tr>
+                                      
+                                      <td>NEATNESS:</td>
+                                      <td>5</td>
+                                      <td>RESPECT:</td>
+                                      <td>5</td>
+                                      <td>TIMES PRESENT:</td>
+                                      <td>94</td>
+                                      <td>SPORTING:</td>
+                                      <td>5</td>
+                                      
+                                    </tr>
+                                    <tr>
+                                    
+                                      <td>LEADERSHIP:</td>
+                                      <td>4</td>
+                                      <td>MIXING:</td>
+                                      <td>5</td>
+                                      <td>TIMES ABSENT:</td>
+                                      <td>24</td>
+                                      <td>CULTURAL:</td>
+                                      <td>5</td>
+                                    
+                                    </tr>
+                                    <tr>
+                                      
+                                      <td>ATTITUDE TO WORK:</td>
+                                      <td>5</td>
+                                      <td>OBIDIENCE:</td>
+                                      <td>5</td>
+                                      <td></td>
+                                      <td></td>
+                                      <td>TECHNICAL:</td>
+                                      <td>5</td>
+                                    
+                                    </tr>
+                                  </table>
+                                  <center >SCALE: &nbsp;&nbsp;&nbsp;&nbsp;Excellent: 05, Good: 04, Fair: 03, Poor: 02, None: 01</b>  
+                                  </center>     
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                        <div class="lastpart">
+                          <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NEXT TERM BEGINS:</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Monday 14th september 2021<br></b>
+                          
+                          <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TEACHER'S COMMENT:<br></b>
+                          
+                          <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PRINCIPAL/HEAD<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TEACHER'S COMMENT:</b> &nbsp;&nbsp;&nbsp;An excellent performance, Do keep flying higher<br>
+                          
+                          <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PRINCIPAL/HEAD<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TEACHER'S SIGNATURE:<br></b> 
+          
+                      </div>
+                    <center>
+                      <p class="promoted">PROMOTED TO THE NEXT CLASS</p>
+                      <p class="promoted" style="margin-left: 47%;">NEXT TERM FEE: N5,950.00</p>
+                    </center>
+             
+                  </div>
+                </div>
+              </div>
+  
+             </div>
+
+               <!-- footer -->
+            <!-- ============================================================== -->
+            <footer class="footer">
+                © Sunshine International School
+                <br>
+                Powered by CHOV LLC
+            </footer>
+            </div>
+        <!-- ============================================================== -->
+        
+        <!-- End Page wrapper  -->
+        <!-- ============================================================== -->
+    </div>
+    <!-- ============================================================== -->
+    <!-- End Wrapper -->
+    <!-- ============================================================== -->
+    <!-- ============================================================== -->
+    <!-- All Jquery -->
+    <!-- ============================================================== -->
+    <script src="../library/plugins/jquery/jquery.min.js"></script>
+    <!-- Bootstrap tether Core JavaScript -->
+    <script src="../library/plugins/bootstrap/js/popper.min.js"></script>
+
+    <script src="../library/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <!-- slimscrollbar scrollbar JavaScript -->
+    <script src="../js/jquery.slimscroll.js"></script>
+    <!--Wave Effects -->
+    <script src="../js/waves.js"></script>
+    <!--Menu sidebar -->
+    <script src="../js/sidebarmenu.js"></script>
+    <!--stickey kit -->
+    <script src="../library/plugins/sticky-kit-master/dist/sticky-kit.min.js"></script>
+    <script src="../library/plugins/sparkline/jquery.sparkline.min.js"></script>
+    <!--Custom JavaScript -->
+    <script src="../js/custom.min.js"></script>
+    <!--morris JavaScript -->
+    <script src="../library/plugins/raphael/raphael-min.js"></script>
+    <script src="../library/plugins/morrisjs/morris.min.js"></script>
+    <!-- sparkline chart -->
+    <!-- Footable -->
+    <script src="../library/plugins/footable/js/footable.all.min.js"></script>
+    <script src="../library/plugins/bootstrap-select/bootstrap-select.min.js" type="text/javascript"></script>
+    <!--FooTable init-->
+    <script src="../js/footable-init.js"></script>
+      <!-- Magnific popup JavaScript -->
+      <script src="../assets/plugins/Magnific-Popup-master/dist/jquery.magnific-popup.min.js"></script>
+      <script src="../assets/plugins/Magnific-Popup-master/dist/jquery.magnific-popup-init.js"></script>
+
+    <script src="../library/plugins/sparkline/jquery.sparkline.min.js"></script>
+    <script src="../js/dashboard4.js"></script>
+    <!-- ============================================================== -->
+    <!-- Style switcher -->
+    <!-- ============================================================== -->
+    <script src="../library/plugins/styleswitcher/jQuery.style.switcher.js"></script>
+    <script src="../library/plugins/datatables/jquery.dataTables.min.js"></script>
+    <!-- start - This is for export functionality only -->
+    <script src="https://cdn.datatables.net/buttons/1.2.2/js/dataTables.buttons.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/1.2.2/js/buttons.flash.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/2.5.0/jszip.min.js"></script>
+    <script src="https://cdn.rawgit.com/bpampuch/pdfmake/0.1.18/build/pdfmake.min.js"></script>
+    <script src="https://cdn.rawgit.com/bpampuch/pdfmake/0.1.18/build/vfs_fonts.js"></script>
+    <script src="https://cdn.datatables.net/buttons/1.2.2/js/buttons.html5.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/1.2.2/js/buttons.print.min.js"></script>
+    <!-- end - This is for export functionality only -->
+ 
+    <script>
+        $(document).ready(function() {
+            $('#myTable').DataTable();
+            $(document).ready(function() {
+                var table = $('#example').DataTable({
+                    "columnDefs": [{
+                        "visible": false,
+                        "targets": 2
+                    }],
+                    "order": [
+                        [2, 'asc']
+                    ],
+                    "displayLength": 25,
+                    "drawCallback": function(settings) {
+                        var api = this.api();
+                        var rows = api.rows({
+                            page: 'current'
+                        }).nodes();
+                        var last = null;
+                        api.column(2, {
+                            page: 'current'
+                        }).data().each(function(group, i) {
+                            if (last !== group) {
+                                $(rows).eq(i).before('<tr class="group"><td colspan="5">' + group + '</td></tr>');
+                                last = group;
+                            }
+                        });
+                    }
+                });
+                // Order by the grouping
+                $('#example tbody').on('click', 'tr.group', function() {
+                    var currentOrder = table.order()[0];
+                    if (currentOrder[0] === 2 && currentOrder[1] === 'asc') {
+                        table.order([2, 'desc']).draw();
+                    } else {
+                        table.order([2, 'asc']).draw();
+                    }
+                });
+            });
+        });
+        $('#example23').DataTable({
+            dom: 'Bfrtip',
+            buttons: [
+                'copy', 'csv', 'excel', 'pdf', 'print'
+            ]
+        });
+        </script>
+
+<script src="../library/plugins/jquery-datatables-editable/jquery.dataTables.js"></script>
+<script src="../library/plugins/datatables/dataTables.bootstrap.js"></script>
+<script src="../library/plugins/tiny-editable/mindmup-editabletable.js"></script>
+<script src="../library/plugins/tiny-editable/numeric-input-example.js"></script>
+<script>
+$('#mainTable').editableTableWidget().numericInputExample().find('td:first').focus();
+$('#editable-datatable').editableTableWidget().numericInputExample().find('td:first').focus();
+$(document).ready(function() {
+    $('#editable-datatable').DataTable();
+});
+</script>
+
+   
+</body>
+
+</html>
+

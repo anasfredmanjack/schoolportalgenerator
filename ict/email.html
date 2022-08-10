@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="../img/profile/blue-shield-and-banner-emblem.png">
+    <title>Sunshine School</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="../library/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../library/plugins/icheck/skins/all.css" rel="stylesheet">
+    <!-- Morries chart CSS -->
+    <link href="../library/plugins/morrisjs/morris.css" rel="stylesheet">   
+    <!-- Custom CSS -->
+    <link href="../css/style1.css" rel="stylesheet">
+    <!-- You can change the theme colors from here -->
+    <link href="../css/blue.css" id="theme" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body class="fix-header card-no-border">
+    <!-- ============================================================== -->
+    <!-- Preloader - style you can find in spinners.css -->
+    <!-- ============================================================== -->
+    <div class="preloader">
+        <svg class="circular" viewBox="25 25 50 50">
+            <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" /> </svg>
+    </div>
+    <!-- ============================================================== -->
+    <!-- Main wrapper - style you can find in pages.scss -->
+    <!-- ============================================================== -->
+    <div id="main-wrapper">
+        <!-- ============================================================== -->
+        <!-- Topbar header - style you can find in pages.scss -->
+        <!-- ============================================================== -->
+        <header class="topbar" id="navcolor">
+            <nav class="navbar top-navbar navbar-expand-md navbar-light">
+                <!-- ============================================================== -->
+                <!-- Logo -->
+                <!-- ============================================================== -->
+                <div class="navbar-header" id="sideBarColor" style="height: 60px;">
+                    <a class="navbar-brand" href="index.html">
+                        <!-- Logo icon --><b>
+                            <!--You can put here icon as well // <i class="wi wi-sunset"></i> //-->
+                            <!-- Dark Logo icon -->
+                           
+                        </b>
+                        <!--End Logo icon -->
+                        <!-- Logo text --><span>
+                         <!-- dark Logo text -->
+                         <img src="../img/schoollogo.png" width="100" style="margin-top: -25px;" alt="homepage" class="dark-logo" />
+                         <!-- Light Logo text -->    
+                         <img src="../img/schoollogo.png" width="100" style="margin-top: -25px;" class="light-logo" alt="homepage" /></span> </a>
+                </div>
+                <!-- ============================================================== -->
+                <!-- End Logo -->
+                <!-- ============================================================== -->
+                <div class="navbar-collapse">
+                    <!-- ============================================================== -->
+                    <!-- toggle and nav items -->
+                    <!-- ============================================================== -->
+                    <ul class="navbar-nav mr-auto mt-md-0">
+                        <!-- This is  -->
+                        <li class="nav-item"> <a class="nav-link nav-toggler hidden-md-up text-muted waves-effect waves-dark" href="javascript:void(0)"><i style="color: white;" class="mdi mdi-menu"></i></a> </li>
+                        <li class="nav-item m-l-10"> <a class="nav-link sidebartoggler hidden-sm-down text-muted waves-effect waves-dark" href="javascript:void(0)"><i style="color: white;" class="ti-menu"></i></a> </li>
+                        <!-- ============================================================== -->
+                        <!-- Comment -->
+                        <!-- ============================================================== -->
+                       
+                        <!-- ============================================================== -->
+                        <!-- End Comment -->
+                        <!-- ============================================================== -->
+                        <!-- ============================================================== -->
+                        <!-- Messages -->
+                        <!-- ============================================================== -->
+                        
+                        <!-- ============================================================== -->
+                        <!-- End Messages -->
+                        <!-- ============================================================== -->
+                        <!-- ============================================================== -->
+                        <!-- Messages -->
+                        <!-- ============================================================== -->
+                       
+                        <!-- ============================================================== -->
+                        <!-- End Messages -->
+                        <!-- ============================================================== -->
+                    </ul>
+                    <!-- ============================================================== -->
+                    <!-- User profile and search -->
+                    <!-- ============================================================== -->
+                    <ul class="navbar-nav my-lg-0">
+                        <!-- ============================================================== -->
+                        <!-- Search -->
+                        <!-- ============================================================== -->
+                        <!-- ============================================================== -->
+                        <!-- Language -->
+                        <!-- ============================================================== -->
+                        <!-- ============================================================== -->
+                        <!-- Profile -->
+                        <!-- ============================================================== -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-muted waves-effect waves-dark" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" ><img src="../img/jj.jfif" alt="user" class="profile-pic"  /><b style="color: white;">Mr. HarmLiz GI</b></a>
+                            <div class="dropdown-menu dropdown-menu-right scale-up">
+                                <ul class="dropdown-user">
+                                    <li>
+                                        <div class="dw-user-box">
+                                            <div class="u-img"><img src="../img/jj.jfif" alt="user"></div>
+                                            <div class="u-text">
+                                                <h4>Mr. HarmLiz GI</h4>
+                                                <p class="text-muted">Johnobi2010@gmail.com</p><a href="profile.html" style="background-color: red;" class="btn btn-rounded btn-danger btn-sm">View Profile</a></div>
+                                        </div>
+                                    </li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="#"><i class="fa fa-power-off"></i> Logout</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!-- ============================================================== -->
+        <!-- End Topbar header -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Left Sidebar - style you can find in sidebar.scss  -->
+        <!-- ============================================================== -->
+        <aside class="left-sidebar" id="sideBarColor">
+            <!-- Sidebar scroll-->
+            <div class="scroll-sidebar">
+                <!-- User profile -->
+                <div class="user-profile">
+                    <!-- User profile image -->
+                    <div class="profile-img"> <img src="../img/jj.jfif" alt="user" />
+                        <!-- this is blinking heartbit-->
+                        
+                    </div>
+                    <!-- User profile text-->
+                    <div class="profile-text">
+                        <h5 style="color: black;">Mr. HarmLiz GI</h5>
+                    </div>
+                </div>
+                <!-- End User profile text-->
+                <!-- Sidebar navigation-->
+                <nav class="sidebar-nav" style="overflow-x: hidden;" id="sideBarColor">
+                    <ul id="sidebarnav">
+                        <li class="nav-devider"></li>
+                        
+                        <li> 
+                            <a href="index.html" id="generalColor" aria-expanded="false">
+                                <i class="mdi mdi-gauge" id="generalColor"></i>
+                                <span class="hide-menu">Dashboard</span>
+                            </a>
+                        </li>
+                        
+                        <li> 
+                            <a href="configurations.html" id="generalColor"  aria-expanded="false">
+                                <i class="fa fa-gears" id="generalColor"></i>
+                                <span class="hide-menu">Configurations</span>
+                            </a>                       
+                        </li>
+
+                        <li> 
+                            <a class="has-arrow waves-effect waves-dark" id="generalColor" href="#" aria-expanded="false">
+                                <i class="fa fa-group" id="generalColor"></i>
+                                <span class="hide-menu">Manage Users</span>
+                            </a>
+                            <ul aria-expanded="false" class="collapse">
+                                <li>
+                                    <a href="manageStaff.html" id="generalColor">
+                                        <i class="fa fa-user" id="generalColor"></i>
+                                        <span style="margin-left: 5px;">Staffs</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="students.html" id="generalColor">
+                                        <i class="fa fa-user" id="generalColor"></i>
+                                        <span style="margin-left: 5px;">Students</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="parent.html" id="generalColor">
+                                        <i class="fa fa-user" id="generalColor"></i>
+                                        <span style="margin-left: 5px;">Parents</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li> 
+                            <a class="has-arrow waves-effect waves-dark" id="generalColor" href="#" aria-expanded="false">
+                                <i class="fa fa-file-text-o" id="generalColor"></i>
+                                <span class="hide-menu">Result</span>
+                            </a>
+                            <ul aria-expanded="false" class="collapse">
+                                <li>
+                                    <a href="scoreSheet.html" id="generalColor">
+                                        <i class="fa fa-file-text-o" id="generalColor"></i>
+                                        <span style="margin-left: 5px;">Score Sheet</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="affectiveDomain.html" id="generalColor">
+                                        <i class="fa fa-file-text-o" id="generalColor"></i>
+                                        <span style="margin-left: 5px;">Affective Domain</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="behaviouralSheet.html" id="generalColor">
+                                        <i class="fa fa-file-text-o" id="generalColor"></i>
+                                        <span style="margin-left: 5px;">Behavioural Sheet</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="viewResult.html" id="generalColor">
+                                        <i class="fa fa-file-text-o" id="generalColor"></i>
+                                        <span style="margin-left: 5px;">View Result</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        
+                       
+
+                        <li> 
+                            <a href="bulkSms.html" id="generalColor" aria-expanded="false">
+                                <i class="mdi mdi-email" id="generalColor"></i>
+                                <span class="hide-menu">SMS</span>
+                            </a>
+                        </li>
+
+                        <li> 
+                            <a href="#" id="generalColor" aria-expanded="false">
+                                <i class="mdi mdi-gmail" id="generalColor"></i>
+                                <span class="hide-menu">Email</span>
+                            </a>
+                        </li>
+
+                        <li> 
+                            <a href="birthday.html" id="generalColor" aria-expanded="false">
+                                <i class="mdi mdi-gift" id="generalColor"></i>
+                                <span class="hide-menu">Birthday Message</span>
+                            </a>
+                        </li>
+
+                        <li> 
+                            <a href="documentation.html" id="generalColor" aria-expanded="false">
+                                <i class="fa fa-folder" id="generalColor"></i>
+                                <span class="hide-menu">Documentation</span>
+                            </a>
+                        </li>
+               
+                    </ul>
+
+                    <span style="bottom: 0; margin-left: 10px; position: absolute;">
+                        <a href="../login/login.html">
+                            <i class="fa fa-power-off" id="generalColor"></i>
+                            <span class="hide-menu" id="generalColor">Logout</span>
+                        </a>
+                    </span>
+                </nav>
+                <!-- End Sidebar navigation -->
+            </div>
+            <!-- End Sidebar scroll-->
+        </aside>
+        <!-- ============================================================== -->
+        <!-- End Left Sidebar - style you can find in sidebar.scss  -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Page wrapper  -->
+        <!-- ============================================================== -->
+        <div class="page-wrapper">
+            <!-- ============================================================== -->
+            <!-- Bread crumb and right sidebar toggle -->
+            <!-- ============================================================== -->
+            <div class="row page-titles">
+                <div class="col-md-10 align-self-center">
+                    <h3 style="color: black;">Email</h3>
+                </div>
+               
+            </div>
+            <!-- ============================================================== -->
+            <!-- End Bread crumb and right sidebar toggle -->
+            <!-- ============================================================== -->
+            <!-- ============================================================== -->
+            <!-- Container fluid  -->
+            <!-- ============================================================== -->
+            <div class="container-fluid">
+                
+                <!-- ============================================================== -->
+                <!-- Start Page Content -->
+                <!-- ============================================================== -->
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="card">
+                            <div class="row">
+                                <div class="col-xlg-2 col-lg-3 col-md-4">
+                                    <div class="card-body inbox-panel"><a href="emailCompose.html" class="btn btn-danger m-b-20 p-10 btn-block waves-effect waves-light">Compose</a>
+                                        <ul class="list-group list-group-full">
+                                             <li class="list-group-item ">
+                                                <a href="email.html"> <i class="mdi mdi-file-document-box"></i> Sent Mail </a>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <a href="emailDraft.html"> <i class="mdi mdi-send"></i> Draft </a><span class="badge badge-danger ml-auto">3</span></li>
+                                            <li class="list-group-item">
+                                                <a href="emailTrash.html"> <i class="mdi mdi-delete"></i> Trash </a>
+                                            </li>
+                                        </ul>
+
+                                    
+
+                                    </div>
+                                </div>
+                                <div class="col-xlg-10 col-lg-9 col-md-8 bg-light-part b-l">
+                                    <div class="card-body">
+                                        <h3 style="color:black;">Sent Mail</h3>
+                                        <p></p>
+                                        <button type="button" style="float: right; margin-top: -15px; margin-right: 20px;" title="Delete" class="btn btn-danger font-18"><i class="mdi mdi-delete"></i></button>
+                                        <div class="checkbox">
+                                            <input type="checkbox" id="checkbox13" value="check">
+                                            <label for="checkbox13">Check all</label>
+                                        </div>
+                                    </div>
+                                    <div class="card-body p-t-0">
+                                        <div class="card b-all shadow-none">
+                                            <div class="inbox-center table-responsive">
+                                                <table class="table table-hover no-wrap">
+                                                    <tbody>
+                                                        <tr class="unread">
+                                                            <td style="width:40px">
+                                                                <div class="checkbox">
+                                                                    <input type="checkbox" id="checkbox0" value="check">
+                                                                    <label for="checkbox0"></label>
+                                                                </div>
+                                                            </td>
+                                                            <td class="hidden-xs-down" style="font-weight: 500;">Sunshine International School, Academic Staffs </td>
+                                                            <td class="max-texts"> <a href="emailDetail.html" style="font-size: 14px;">Lorem ipsum perspiciatis unde omnis iste natus error sit voluptatem</a></td>
+                                                            <td class="text-right"><span style="font-size: 13px; margin-bottom: -20px;">12:30 PM</span></td>
+                                                        </tr>
+                                                        <tr class="unread">
+                                                            <td>
+                                                                <div class="checkbox">
+                                                                    <input type="checkbox" id="checkbox1" value="check">
+                                                                    <label for="checkbox1"></label>
+                                                                </div>
+                                                            </td>
+                                                            <td class="hidden-xs-down" style="font-weight: 500;">Sunshine International School, Academic Staffs </td>
+                                                            <td class="max-texts"> <a href="emailDetail.html" style="font-size: 14px;">Lorem ipsum perspiciatis unde omnis iste natus error sit voluptatem</a></td>
+                                                            <td class="text-right"><span style="font-size: 13px; margin-bottom: -20px;">May 12 </span></td>
+                                                        </tr>
+                                                        <tr class="unread">
+                                                            <td>
+                                                                <div class="checkbox">
+                                                                    <input type="checkbox" id="checkbox2" value="check">
+                                                                    <label for="checkbox2"></label>
+                                                                </div>
+                                                            </td>
+                                                            <td class="hidden-xs-down" style="font-weight: 500;">Sunshine International School, Academic Staffs </td>
+                                                            <td class="max-texts"> <a href="emailDetail.html" style="font-size: 14px;">Lorem ipsum perspiciatis unde omnis iste natus error sit voluptatem</a></td>
+                                                            <td class="text-right"><span style="font-size: 13px; margin-bottom: -20px;">May 12 </span></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <div class="checkbox">
+                                                                    <input type="checkbox" id="checkbox3" value="check">
+                                                                    <label for="checkbox3"></label>
+                                                                </div>
+                                                            </td>
+                                                            <td class="hidden-xs-down" style="font-weight: 500;">Sunshine International School, Academic Staffs </td>
+                                                            <td class="max-texts"> <a href="emailDetail.html" style="font-size: 14px;">Lorem ipsum perspiciatis unde omnis iste natus error sit voluptatem</a></td>
+                                                            <td class="text-right"><span style="font-size: 13px; margin-bottom: -20px;">May 12 </span></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <div class="checkbox">
+                                                                    <input type="checkbox" id="checkbox4" value="check">
+                                                                    <label for="checkbox4"></label>
+                                                                </div>
+                                                            </td>
+                                                            <td class="hidden-xs-down" style="font-weight: 500;">Sunshine International School, Academic Staffs </td>
+                                                            <td class="max-texts"> <a href="emailDetail.html" style="font-size: 14px;">Lorem ipsum perspiciatis unde omnis iste natus error sit voluptatem</a></td>
+                                                            <td class="text-right"><span style="font-size: 13px; margin-bottom: -20px;">May 12 </span></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <div class="checkbox">
+                                                                    <input type="checkbox" id="checkbox5" value="check">
+                                                                    <label for="checkbox5"></label>
+                                                                </div>
+                                                            </td>
+                                                            <td class="hidden-xs-down" style="font-weight: 500;">Sunshine International School, Academic Staffs </td>
+                                                            <td class="max-texts"> <a href="emailDetail.html" style="font-size: 14px;">Lorem ipsum perspiciatis unde omnis iste natus error sit voluptatem</a></td>
+                                                            <td class="text-right"><span style="font-size: 13px; margin-bottom: -20px;">May 12 </span></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <div class="checkbox">
+                                                                    <input type="checkbox" id="checkbox6" value="check">
+                                                                    <label for="checkbox6"></label>
+                                                                </div>
+                                                            </td>
+                                                            <td class="hidden-xs-down" style="font-weight: 500;">Sunshine International School, Academic Staffs </td>
+                                                            <td class="max-texts"> <a href="emailDetail.html" style="font-size: 14px;">Lorem ipsum perspiciatis unde omnis iste natus error sit voluptatem</a></td>
+                                                            <td class="text-right"><span style="font-size: 13px; margin-bottom: -20px;">May 12 </span></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <div class="checkbox">
+                                                                    <input type="checkbox" id="checkbox7" value="check">
+                                                                    <label for="checkbox7"></label>
+                                                                </div>
+                                                            </td>
+                                                            <td class="hidden-xs-down" style="font-weight: 500;">Sunshine International School, Academic Staffs </td>
+                                                            <td class="max-texts"> <a href="emailDetail.html" style="font-size: 14px;">Lorem ipsum perspiciatis unde omnis iste natus error sit voluptatem</a></td>
+                                                            <td class="text-right"><span style="font-size: 13px; margin-bottom: -20px;">May 12 </span></td>
+                                                        </tr>
+                                                       
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ============================================================== -->
+                <!-- End PAge Content -->
+                <!-- ============================================================== -->
+                <!-- ============================================================== -->
+               
+            </div>
+            <!-- ============================================================== -->
+            <!-- End Container fluid  -->
+            <!-- ============================================================== -->
+            <!-- ============================================================== -->
+            <!-- footer -->
+            <!-- ============================================================== -->
+            <footer class="footer">
+                © Sunshine International School
+                <br>
+                Powered by CHOV LLC
+            </footer>
+            <!-- ============================================================== -->
+            <!-- End footer -->
+            <!-- ============================================================== -->
+        </div>
+        <!-- ============================================================== -->
+        <!-- End Page wrapper  -->
+        <!-- ============================================================== -->
+    </div>
+    <!-- ============================================================== -->
+    <!-- End Wrapper -->
+    <!-- ============================================================== -->
+    <!-- ============================================================== -->
+    <!-- All Jquery -->
+    <!-- ============================================================== -->
+    <script src="../library/plugins/jquery/jquery.min.js"></script>
+    <!-- Bootstrap tether Core JavaScript -->
+    <script src="../library/plugins/bootstrap/js/popper.min.js"></script>
+
+    <script src="../library/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <!-- slimscrollbar scrollbar JavaScript -->
+    <script src="../js/jquery.slimscroll.js"></script>
+    <!--Wave Effects -->
+    <script src="../js/waves.js"></script>
+    <!--Menu sidebar -->
+    <script src="../js/sidebarmenu.js"></script>
+    <!--stickey kit -->
+    <script src="../library/plugins/sticky-kit-master/dist/sticky-kit.min.js"></script>
+    <script src="../library/plugins/sparkline/jquery.sparkline.min.js"></script>
+    <!--Custom JavaScript -->
+    <script src="../js/custom.min.js"></script>
+    <!--morris JavaScript -->
+    <script src="../library/plugins/raphael/raphael-min.js"></script>
+    <script src="../library/plugins/morrisjs/morris.min.js"></script>
+    <!-- sparkline chart -->
+    <!-- Footable -->
+    <script src="../library/plugins/footable/js/footable.all.min.js"></script>
+    <script src="../library/plugins/bootstrap-select/bootstrap-select.min.js" type="text/javascript"></script>
+    <!--FooTable init-->
+    <script src="../js/footable-init.js"></script>
+      <!-- Magnific popup JavaScript -->
+      <script src="../assets/plugins/Magnific-Popup-master/dist/jquery.magnific-popup.min.js"></script>
+      <script src="../assets/plugins/Magnific-Popup-master/dist/jquery.magnific-popup-init.js"></script>
+
+    <script src="../library/plugins/sparkline/jquery.sparkline.min.js"></script>
+    <script src="../js/dashboard4.js"></script>
+    <!-- ============================================================== -->
+    <!-- Style switcher -->
+    <!-- ============================================================== -->
+    <script src="../library/plugins/styleswitcher/jQuery.style.switcher.js"></script>
+    <script src="../library/plugins/datatables/jquery.dataTables.min.js"></script>
+    <!-- start - This is for export functionality only -->
+    <script src="https://cdn.datatables.net/buttons/1.2.2/js/dataTables.buttons.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/1.2.2/js/buttons.flash.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/2.5.0/jszip.min.js"></script>
+    <script src="https://cdn.rawgit.com/bpampuch/pdfmake/0.1.18/build/pdfmake.min.js"></script>
+    <script src="https://cdn.rawgit.com/bpampuch/pdfmake/0.1.18/build/vfs_fonts.js"></script>
+    <script src="https://cdn.datatables.net/buttons/1.2.2/js/buttons.html5.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/1.2.2/js/buttons.print.min.js"></script>
+    <!-- end - This is for export functionality only -->
+ 
+</body>
+
+</html>
+

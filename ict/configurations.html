@@ -1,0 +1,2062 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="../img/profile/blue-shield-and-banner-emblem.png">
+    <title>Sunshine School</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="../library/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../library/plugins/icheck/skins/all.css" rel="stylesheet">
+    <!-- Morries chart CSS -->
+    <link href="../library/plugins/morrisjs/morris.css" rel="stylesheet">   
+    <!-- Custom CSS -->
+    <link href="../css/style1.css" rel="stylesheet">
+    <!-- You can change the theme colors from here -->
+    <link href="../css/blue.css" id="theme" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body class="fix-header card-no-border">
+    <!-- ============================================================== -->
+    <!-- Preloader - style you can find in spinners.css -->
+    <!-- ============================================================== -->
+    <div class="preloader">
+        <svg class="circular" viewBox="25 25 50 50">
+            <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" /> </svg>
+    </div>
+    <!-- ============================================================== -->
+    <!-- Main wrapper - style you can find in pages.scss -->
+    <!-- ============================================================== -->
+    <div id="main-wrapper">
+        <!-- ============================================================== -->
+        <!-- Topbar header - style you can find in pages.scss -->
+        <!-- ============================================================== -->
+        <header class="topbar" id="navcolor">
+            <nav class="navbar top-navbar navbar-expand-md navbar-light">
+                <!-- ============================================================== -->
+                <!-- Logo -->
+                <!-- ============================================================== -->
+                <div class="navbar-header" id="sideBarColor" style="height: 60px;">
+                    <a class="navbar-brand" href="index.html">
+                        <!-- Logo icon --><b>
+                            <!--You can put here icon as well // <i class="wi wi-sunset"></i> //-->
+                            <!-- Dark Logo icon -->
+                           
+                        </b>
+                        <!--End Logo icon -->
+                        <!-- Logo text --><span>
+                         <!-- dark Logo text -->
+                         <img src="../img/schoollogo.png" width="100" style="margin-top: -25px;" alt="homepage" class="dark-logo" />
+                         <!-- Light Logo text -->    
+                         <img src="../img/schoollogo.png" width="100" style="margin-top: -25px;" class="light-logo" alt="homepage" /></span> </a>
+                </div>
+                <!-- ============================================================== -->
+                <!-- End Logo -->
+                <!-- ============================================================== -->
+                <div class="navbar-collapse">
+                    <!-- ============================================================== -->
+                    <!-- toggle and nav items -->
+                    <!-- ============================================================== -->
+                    <ul class="navbar-nav mr-auto mt-md-0">
+                        <!-- This is  -->
+                        <li class="nav-item"> <a class="nav-link nav-toggler hidden-md-up text-muted waves-effect waves-dark" href="javascript:void(0)"><i style="color: white;" class="mdi mdi-menu"></i></a> </li>
+                        <li class="nav-item m-l-10"> <a class="nav-link sidebartoggler hidden-sm-down text-muted waves-effect waves-dark" href="javascript:void(0)"><i style="color: white;" class="ti-menu"></i></a> </li>
+                        <!-- ============================================================== -->
+                        <!-- Comment -->
+                        <!-- ============================================================== -->
+                       
+                        <!-- ============================================================== -->
+                        <!-- End Comment -->
+                        <!-- ============================================================== -->
+                        <!-- ============================================================== -->
+                        <!-- Messages -->
+                        <!-- ============================================================== -->
+                        
+                        <!-- ============================================================== -->
+                        <!-- End Messages -->
+                        <!-- ============================================================== -->
+                        <!-- ============================================================== -->
+                        <!-- Messages -->
+                        <!-- ============================================================== -->
+                       
+                        <!-- ============================================================== -->
+                        <!-- End Messages -->
+                        <!-- ============================================================== -->
+                    </ul>
+                    <!-- ============================================================== -->
+                    <!-- User profile and search -->
+                    <!-- ============================================================== -->
+                    <ul class="navbar-nav my-lg-0">
+                        <!-- ============================================================== -->
+                        <!-- Search -->
+                        <!-- ============================================================== -->
+                        <!-- ============================================================== -->
+                        <!-- Language -->
+                        <!-- ============================================================== -->
+                        <!-- ============================================================== -->
+                        <!-- Profile -->
+                        <!-- ============================================================== -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-muted waves-effect waves-dark" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" ><img src="../img/jj.jfif" alt="user" class="profile-pic"  /><b style="color: white;">Mr. HarmLiz GI</b></a>
+                            <div class="dropdown-menu dropdown-menu-right scale-up">
+                                <ul class="dropdown-user">
+                                    <li>
+                                        <div class="dw-user-box">
+                                            <div class="u-img"><img src="../img/jj.jfif" alt="user"></div>
+                                            <div class="u-text">
+                                                <h4>Mr. HarmLiz GI</h4>
+                                                <p class="text-muted">Johnobi2010@gmail.com</p><a href="profile.html" style="background-color: red;" class="btn btn-rounded btn-danger btn-sm">View Profile</a></div>
+                                        </div>
+                                    </li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="#"><i class="fa fa-power-off"></i> Logout</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!-- ============================================================== -->
+        <!-- End Topbar header -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Left Sidebar - style you can find in sidebar.scss  -->
+        <!-- ============================================================== -->
+        <aside class="left-sidebar" id="sideBarColor">
+            <!-- Sidebar scroll-->
+            <div class="scroll-sidebar">
+                <!-- User profile -->
+                <div class="user-profile">
+                    <!-- User profile image -->
+                    <div class="profile-img"> <img src="../img/jj.jfif" alt="user" />
+                        <!-- this is blinking heartbit-->
+                        
+                    </div>
+                    <!-- User profile text-->
+                    <div class="profile-text">
+                        <h5 style="color: black;">Mr. HarmLiz GI</h5>
+                    </div>
+                </div>
+                <!-- End User profile text-->
+                <!-- Sidebar navigation-->
+                <nav class="sidebar-nav" style="overflow-x: hidden;" id="sideBarColor">
+                    <ul id="sidebarnav">
+                        <li class="nav-devider"></li>
+                        
+                        <li> 
+                            <a href="index.html" id="generalColor" aria-expanded="false">
+                                <i class="mdi mdi-gauge" id="generalColor"></i>
+                                <span class="hide-menu">Dashboard</span>
+                            </a>
+                        </li>
+                        
+                        <li> 
+                            <a href="#" id="generalColor"  aria-expanded="false">
+                                <i class="fa fa-gears" id="generalColor"></i>
+                                <span class="hide-menu">Configurations</span>
+                            </a>                       
+                        </li>
+
+                        <li> 
+                            <a class="has-arrow waves-effect waves-dark" id="generalColor" href="#" aria-expanded="false">
+                                <i class="fa fa-group" id="generalColor"></i>
+                                <span class="hide-menu">Manage Users</span>
+                            </a>
+                            <ul aria-expanded="false" class="collapse">
+                                <li>
+                                    <a href="manageStaff.html" id="generalColor">
+                                        <i class="fa fa-user" id="generalColor"></i>
+                                        <span style="margin-left: 5px;">Staffs</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="students.html" id="generalColor">
+                                        <i class="fa fa-user" id="generalColor"></i>
+                                        <span style="margin-left: 5px;">Students</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="parent.html" id="generalColor">
+                                        <i class="fa fa-user" id="generalColor"></i>
+                                        <span style="margin-left: 5px;">Parents</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li> 
+                            <a class="has-arrow waves-effect waves-dark" id="generalColor" href="#" aria-expanded="false">
+                                <i class="fa fa-file-text-o" id="generalColor"></i>
+                                <span class="hide-menu">Result</span>
+                            </a>
+                            <ul aria-expanded="false" class="collapse">
+                                <li>
+                                    <a href="scoreSheet.html" id="generalColor">
+                                        <i class="fa fa-file-text-o" id="generalColor"></i>
+                                        <span style="margin-left: 5px;">Score Sheet</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="affectiveDomain.html" id="generalColor">
+                                        <i class="fa fa-file-text-o" id="generalColor"></i>
+                                        <span style="margin-left: 5px;">Affective Domain</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="behaviouralSheet.html" id="generalColor">
+                                        <i class="fa fa-file-text-o" id="generalColor"></i>
+                                        <span style="margin-left: 5px;">Behavioural Sheet</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="viewResult.html" id="generalColor">
+                                        <i class="fa fa-file-text-o" id="generalColor"></i>
+                                        <span style="margin-left: 5px;">View Result</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        
+                       
+
+                        <li> 
+                            <a href="bulkSms.html" id="generalColor" aria-expanded="false">
+                                <i class="mdi mdi-email" id="generalColor"></i>
+                                <span class="hide-menu">SMS</span>
+                            </a>
+                        </li>
+
+                        <li> 
+                            <a href="email.html" id="generalColor" aria-expanded="false">
+                                <i class="mdi mdi-gmail" id="generalColor"></i>
+                                <span class="hide-menu">Email</span>
+                            </a>
+                        </li>
+
+                        <li> 
+                            <a href="birthday.html" id="generalColor" aria-expanded="false">
+                                <i class="mdi mdi-gift" id="generalColor"></i>
+                                <span class="hide-menu">Birthday Message</span>
+                            </a>
+                        </li>
+
+                        <li> 
+                            <a href="documentation.html" id="generalColor" aria-expanded="false">
+                                <i class="fa fa-folder" id="generalColor"></i>
+                                <span class="hide-menu">Documentation</span>
+                            </a>
+                        </li>
+               
+                    </ul>
+
+                    <span style="bottom: 0; margin-left: 10px; position: absolute;">
+                        <a href="../login/login.html">
+                            <i class="fa fa-power-off" id="generalColor"></i>
+                            <span class="hide-menu" id="generalColor">Logout</span>
+                        </a>
+                    </span>
+                </nav>
+                <!-- End Sidebar navigation -->
+            </div>
+            <!-- End Sidebar scroll-->
+        </aside>
+        <!-- ============================================================== -->
+        <!-- End Left Sidebar - style you can find in sidebar.scss  -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Page wrapper  -->
+        <!-- ============================================================== -->
+        <div class="page-wrapper">
+            <!-- ============================================================== -->
+            <!-- Bread crumb and right sidebar toggle -->
+            <!-- ============================================================== -->
+            <div class="row page-titles">
+                <div class="col-md-10 align-self-center">
+                    <h3 style="color: black;">Configurations</h3>
+                </div>
+               
+            </div>
+            <!-- ============================================================== -->
+            <!-- End Bread crumb and right sidebar toggle -->
+            <!-- ============================================================== -->
+            <!-- ============================================================== -->
+            <!-- Container fluid  -->
+            <!-- ============================================================== -->
+            <div class="container-fluid">
+                
+                <!-- ============================================================== -->
+                <!-- Start Page Content -->
+                <!-- ============================================================== -->
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-2">
+                                <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                                    <a class="nav-link active" style="font-size: 14px;" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true"><i class="fa fa-in"></i>School</a>
+                                    <a class="nav-link"  style="font-size: 14px;" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Subject</a>
+                                    <a class="nav-link"  style="font-size: 14px;" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Classes</a>
+                                    <a class="nav-link"  style="font-size: 14px;" id="v-pills-result-tab" data-toggle="pill" href="#v-pills-result" role="tab" aria-controls="v-pills-result" aria-selected="false">Result Settings</a>
+                                    <a class="nav-link"  style="font-size: 14px;" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Customation</a>
+                                </div>
+                            </div>
+
+                            <div class="col-10">
+                                <div class="tab-content" id="v-pills-tabContent">
+
+
+                                    <!--================School Setting=================-->
+                                    <!--================School Setting=================-->
+                                    <!--================School Setting=================-->
+                                    <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <div class="card">
+                                                    <div class="card-body">
+                        
+                                                        <div class="button-group">
+                                                            <button type="button" class="btn waves-effect waves-light btn-rounded btn-outline-info" style="font-size: 13px;"><i class="fa fa-file-excel-o"></i><span style="margin-left: 5px;">CSV</span></button>
+                                                            <button type="button" class="btn waves-effect waves-light btn-rounded btn-outline-info" style="font-size: 13px;"><i class="fa fa-file-pdf-o"></i><span style="margin-left: 5px;">PDF</span></button>
+                                                            <button type="button" class="btn waves-effect waves-light btn-rounded btn-outline-info" style="font-size: 13px;"><i class="fa fa-print"></i><span style="margin-left: 5px;">Print</span></button>
+                                                        </div>
+                                                        
+                                                        <div class="button-group" style="float: right; margin-top: -38px;">
+                                                            <button type="button" data-toggle="modal" data-target="#createSchoolModal" class="btn waves-effect waves-light btn-rounded btn-outline-info" style="font-size: 13px;"><i class="fa fa-plus"></i><span style="margin-left: 5px;">Create Schools</span></button> 
+                                                        </div>
+                                                        
+                                                                    <!--========================================================================================-->
+                                                                    <!--========================================================================================-->
+                                                                    <!--========================================================================================-->
+                                                                    <!--==== Create School Modal==== -->
+                                                                    <div class="modal fade" id="createSchoolModal" tabindex="-1" aria-labelledby="createSchoolModalLabel" aria-hidden="true">
+                                                                        <div class="modal-dialog modal-dialog-scrollable">
+                                                                            <div class="modal-content">
+                                                                                <div class="modal-header">
+                                                                                    <h3 style="color: black; margin-left: 23%; font-weight: 500;">Create Schools/Grade</h3>
+                                                            
+                                                                                </div>
+                                                        
+                                                                                <div class="modal-body">
+                                                        
+                                                                                    <div class="row">
+                                                                                        <div class="col-sm-12 col-xs-12">
+                                                                                                                                                                
+                                                                                            <form>
+                                                                                                <div class="form-group">
+                                                                                                    
+                                                                                                    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Enter School Name">
+                                                                                                </div>
+                                                        
+                                                                                                <a href="#" type="button" style="float: right;" class="btn chimaApplyToClassBtn">
+                                                                                                    Add New <i class="fa fa-check-circle"></i>
+                                                                                                </a>
+                                                                                                                                                                                                                                                    
+                                                                                            </form>
+                                                                                        </div>
+                                                                                    </div>
+                                                        
+                                                                                    <div class="row" style="margin-top: 20px;">
+                                                                                    <div class="col-md-12">
+                                                                                        <div class="demo-checkbox">
+                                                                                            <input type="checkbox" value="Check All" name="Check All" id="md_checkbox_0" class="filled-in chk-col-blue"/>
+                                                                                            <label for="md_checkbox_0">Check All</label>
+
+                                                                                            <input type="checkbox" value="CRECHE" name="CRECHE" id="md_checkbox_1" class="filled-in chk-col-blue"/>
+                                                                                            <label for="md_checkbox_1">CRECHE</label>
+                                                        
+                                                                                            <input type="checkbox" value="DayCare" name="DayCare" id="md_checkbox_2" class="filled-in chk-col-blue"/>
+                                                                                            <label for="md_checkbox_2">DayCare</label>
+                                                        
+                                                                                            <input type="checkbox" value="Pre Nursery" name="Pre Nursery" id="md_checkbox_3" class="filled-in chk-col-blue"/>
+                                                                                            <label for="md_checkbox_3">Pre Nursery</label>
+                                                        
+                                                                                            <input type="checkbox" value="Nursery" name="Nursery" id="md_checkbox_4" class="filled-in chk-col-blue"/>
+                                                                                            <label for="md_checkbox_4">Nursery</label>
+                                                        
+                                                                                            <input type="checkbox"  value="Primary" name="Primary" id="md_checkbox_5" class="filled-in chk-col-blue" />
+                                                                                            <label for="md_checkbox_5">Primary</label>
+                                                        
+                                                                                            <input type="checkbox"  value="Junior Secondary" name="Junior Secondary" id="md_checkbox_6" class="filled-in chk-col-blue"/>
+                                                                                            <label for="md_checkbox_6">Junior Secondary</label>
+                                                        
+                                                                                            <input type="checkbox"  value="Junior Secondary" name="Junior Secondary" id="md_checkbox_7" class="filled-in chk-col-blue"/>
+                                                                                            <label for="md_checkbox_7">Junior Secondary</label>
+                                                        
+                                                                                            <input type="checkbox" value="Senior Secondary" name="Senior Secondary" id="md_checkbox_8" class="filled-in chk-col-blue"/>
+                                                                                            <label for="md_checkbox_8">Senior Secondary</label>
+                                                        
+                                                                                            <input type="checkbox" value="High School" name="High School" id="md_checkbox_9" class="filled-in chk-col-blue"/>
+                                                                                            <label for="md_checkbox_9">High School</label>
+                                                                                            
+                                                                                        </div>
+                                                                                    </div>
+                                                                                                                                                        
+                                                                                    </div>
+                                                        
+                                                                                
+                                                                                </div>
+                                                        
+                                                                                <div style="margin-bottom: 40px;">
+                                                                                    <button type="button" class="btn chimaCancelBtn1" data-dismiss="modal">Close</button>
+                                                                                    <button type="button" style="width: 150px;" class="btn chimaSubmitBtn">Add Selected</button>
+                                                                                    
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <!--==== Create School Modal==== -->
+                                                                    <!--========================================================================================-->
+                                                                    <!--========================================================================================-->
+                                                                    <!--========================================================================================-->
+                                                        
+                                                                    <!--========================================================================================-->
+                                                                    <!--========================================================================================-->
+                                                                    <!--========================================================================================-->
+                                                                    <!--==== Delete Modal==== -->
+                                                                    <div class="modal fade" id="deleteModal" tabindex="-1" aria-labelledby="deleteModalLabel" aria-hidden="true">
+                                                                        <div class="modal-dialog modal-dialog-scrollable">
+                                                                            <div class="modal-content">
+                                                                                <div class="modal-header">
+                                                                                    <h2 style="margin-left: 32%;">Are you Sure?</h2>
+                                                                                    <br>
+                                                                                
+                                                                                </div>
+                                                        
+                                                                                <div class="modal-body" align="Center">
+                                                                                    <div><i style="color: red; font-size: 40px; font-weight: 800;" class="mdi mdi-close" ></i></div>
+                                                            
+                                                                                    <p>Do you really want to delete the record related to Nursery?<br>Please note that this process cannot be reversed</p>
+                                                                                </div>
+                                                        
+                                                                                <div align="Center" style="margin-bottom: 40px;">
+                                                                                    <button type="button" class="btn chimaProceedBtn">Cancel</button>
+                                                                                    <button type="button" class="btn chimaCancelBtn" style="width: 120px;" data-dismiss="modal">Yes! Delete</button>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <!--==== Delete Modal==== -->
+                                                                    <!--========================================================================================-->
+                                                                    <!--========================================================================================-->
+                                                                    <!--========================================================================================-->
+                                                        
+                                                        
+                                                        
+                                                        <h2 style="margin-top: 20px; color: black;">Schools Settings</h2>
+                                                        
+                                                            <div class="table-responsive m-t-40">
+                                                                <table id="myTable" class="table display table-striped">
+                                                                    <thead>
+                                                                        <tr>
+                                                                            <th>
+                                                                                <input name="allSchool" type="checkbox" id="md_checkbox_10" class="filled-in chk-col-blue"/>
+                                                                                <label style="margin-bottom: -10px;" for="md_checkbox_10"></label>
+                                                                            </th>
+                                                                            <th>School/Grade</th>
+                                                                            <th>Action <a href="#" data-toggle="modal" data-target="#deleteModal" style="color: red;" ><i class="fa fa-trash"></i> <span style="font-weight: lighter;">Delete (0)</span></a></th>
+                                                                            
+                                                                        </tr>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>  
+                                                                                <input name="Pre Nursery" type="checkbox" id="md_checkbox_11" class="filled-in chk-col-blue" />
+                                                                                <label style="margin-bottom: -10px;" for="md_checkbox_11"></label>
+                                                                            </td>
+                                                                            <td>Pre Nursery</td>
+                                                                            <td><a href="#" style="color: red;" data-toggle="modal" data-target="#deleteModal" ><i class="fa fa-close"></i> <span>Remove</span></a></td>
+                                                                            
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>  
+                                                                                <input name="Nursery" type="checkbox" id="md_checkbox_12" class="filled-in chk-col-blue" />
+                                                                                <label style="margin-bottom: -10px;" for="md_checkbox_12"></label>
+                                                                            </td>
+                                                                            <td>Nursery</td>
+                                                                            <td><a href="#" style="color: red;" data-toggle="modal" data-target="#deleteModal" ><i class="fa fa-close"></i> <span>Remove</span></a></td>
+                                                                            
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>  
+                                                                                <input name="Primary" type="checkbox" id="md_checkbox_13" class="filled-in chk-col-blue" />
+                                                                                <label style="margin-bottom: -10px;" for="md_checkbox_13"></label>
+                                                                            </td>
+                                                                            <td>Primary</td>
+                                                                            <td><a href="#" style="color: red;" data-toggle="modal" data-target="#deleteModal" ><i class="fa fa-close"></i> <span>Remove</span></a></td>
+                                                                                                                                    
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>  
+                                                                                <input name="Junior Secondary" type="checkbox" id="md_checkbox_14" class="filled-in chk-col-blue" />
+                                                                                <label style="margin-bottom: -10px;" for="md_checkbox_14"></label>
+                                                                            </td>
+                                                                            <td>Junior Secondary </td>
+                                                                            <td><a href="#" style="color: red;" data-toggle="modal" data-target="#deleteModal" ><i class="fa fa-close"></i> <span>Remove</span></a></td>
+                                                                                                                                    
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>  
+                                                                                <input name="Senior Secondary" type="checkbox" id="md_checkbox_15" class="filled-in chk-col-blue" />
+                                                                                <label style="margin-bottom: -10px;" for="md_checkbox_15"></label>
+                                                                            </td>
+                                                                            <td>Senior Secondary </td>
+                                                                            <td><a href="#" style="color: red;" data-toggle="modal" data-target="#deleteModal" ><i class="fa fa-close"></i> <span>Remove</span></a></td>
+                                                                                    
+                                                                        </tr>
+                                                                                                                        
+                                                                    </tbody>
+                                                                </table>
+                                                            </div>
+                                                                                    
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                   <!--================School Setting=================-->
+                                   <!--================School Setting=================-->
+                                   <!--================School Setting=================-->
+
+
+
+                                    <!--=================Subject Setting==============-->
+                                    <!--==================================================-->
+                                    <!--==================================================-->
+                                    <!--==================================================-->
+                                    <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <div class="card">
+                                                    <div class="card-body">
+                        
+                                                        <div class="button-group">
+                                                            <button type="button" class="btn waves-effect waves-light btn-rounded btn-outline-info" style="font-size: 13px;"><i class="fa fa-file-excel-o"></i><span style="margin-left: 5px;">CSV</span></button>
+                                                            <button type="button" class="btn waves-effect waves-light btn-rounded btn-outline-info" style="font-size: 13px;"><i class="fa fa-file-pdf-o"></i><span style="margin-left: 5px;">PDF</span></button>
+                                                            <button type="button" class="btn waves-effect waves-light btn-rounded btn-outline-info" style="font-size: 13px;"><i class="fa fa-print"></i><span style="margin-left: 5px;">Print</span></button>
+                                                        </div>
+                                                        
+                                                        <div class="button-group" style="float: right; margin-top: -38px;">
+                                                            <button type="button" data-toggle="modal" data-target="#createSubjectModal" class="btn waves-effect waves-light btn-rounded btn-outline-info" style="font-size: 13px;"><i class="fa fa-plus"></i><span style="margin-left: 5px;">Create Subject</span></button> 
+                                                        </div>
+                                                        
+                                                                    <!--========================================================================================-->
+                                                                    <!--========================================================================================-->
+                                                                    <!--========================================================================================-->
+                                                                    <!--==== Create Subject Modal==== -->
+                                                                    <div class="modal fade" id="createSubjectModal" tabindex="-1" aria-labelledby="createSubjectModalLabel" aria-hidden="true">
+                                                                        <div class="modal-dialog modal-dialog-scrollable">
+                                                                            <div class="modal-content">
+                                                                                <div class="modal-header">
+                                                                                    <h3 style="color: black; margin-left: 30%; font-weight: 500;">Create Subject</h3>
+                                                            
+                                                                                </div>
+                                                        
+                                                                                <div class="modal-body">
+                                                        
+                                                                                    <div class="row">
+                                                                                        <div class="col-sm-12 col-xs-12">
+                                                                                                                                                                
+                                                                                            <form>
+                                                                                                <div class="form-group">
+                                                                                                    <label>School/Grade</label>
+                                                                                                    <select class="form-control">
+                                                                                                        <option >Select School/Grade</option>
+                                                                                                        
+                                                                                                    </select>
+                                                                                                </div>
+
+                                                                                                <div class="form-group">
+                                                                                                    <label>Subjects</label>
+                                                                                                    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Enter Subjects Name">
+                                                                                                </div>
+                                                                                                
+                                                        
+                                                                                                <a href="#" type="button" style="float: right;" class="btn chimaApplyToClassBtn">
+                                                                                                    Add New <i class="fa fa-check-circle"></i>
+                                                                                                </a>
+                                                                                                                                                                                                                                                    
+                                                                                            </form>
+                                                                                        </div>
+                                                                                    </div>
+                                                        
+                                                                                    <div class="row" style="margin-top: 20px;">
+                                                                                        <div class="col-md-12">
+                                                                                            <h3 style="color: black;">Primary</h3>
+                                                                                            <br>
+                                                                                            <div class="demo-checkbox">
+                                                                                                <input type="checkbox" value="Check All" name="Check All" id="md_checkbox_16" class="filled-in chk-col-blue"/>
+                                                                                                <label for="md_checkbox_16">Check All</label>
+
+                                                                                                <input type="checkbox" value="English" name="English" id="md_checkbox_17" class="filled-in chk-col-blue"/>
+                                                                                                <label for="md_checkbox_17">English</label>
+                                                            
+                                                                                                <input type="checkbox" value="Computer" name="Computer" id="md_checkbox_18" class="filled-in chk-col-blue"/>
+                                                                                                <label for="md_checkbox_18">Computer</label>
+                                                            
+                                                                                                <input type="checkbox" value="Home Economic" name="Home Economic" id="md_checkbox_19" class="filled-in chk-col-blue"/>
+                                                                                                <label for="md_checkbox_19">Home Economic</label>
+                                                            
+                                                                                                <input type="checkbox" value="Agricultural Science" name="Agricultural Science" id="md_checkbox_20" class="filled-in chk-col-blue"/>
+                                                                                                <label for="md_checkbox_20">Agricultural Science</label>
+                                                            
+                                                                                                <input type="checkbox"  value="Maths" name="Maths" id="md_checkbox_21" class="filled-in chk-col-blue" />
+                                                                                                <label for="md_checkbox_21">Maths</label>
+                                                            
+                                                                                                <input type="checkbox"  value="Civil Education" name="Civil Education" id="md_checkbox_22" class="filled-in chk-col-blue"/>
+                                                                                                <label for="md_checkbox_22">Civil Education</label>
+                                                            
+                                                                                                <input type="checkbox"  value="Social Studies" name="Social Studies" id="md_checkbox_23" class="filled-in chk-col-blue"/>
+                                                                                                <label for="md_checkbox_23">Social Studies</label>
+                                                            
+                                                                                                <input type="checkbox" value="Chemistry" name="Chemistry" id="md_checkbox_24" class="filled-in chk-col-blue"/>
+                                                                                                <label for="md_checkbox_24">Chemistry</label>
+                                                            
+                                                                                            </div>
+                                                                                        </div>
+                                                                                                                                                        
+                                                                                    </div>
+                                                        
+                                                                                
+                                                                                </div>
+                                                        
+                                                                                <div style="margin-bottom: 40px;">
+                                                                                    <button type="button" class="btn chimaCancelBtn1" data-dismiss="modal">Close</button>
+                                                                                    <button type="button" style="width: 150px;" class="btn chimaSubmitBtn">Add Selected</button>
+                                                                                    
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <!--==== Create Subject Modal==== -->
+                                                                    <!--========================================================================================-->
+                                                                    <!--========================================================================================-->
+                                                                    <!--========================================================================================-->
+                                                        
+                                                                    <!--========================================================================================-->
+                                                                    <!--========================================================================================-->
+                                                                    <!--========================================================================================-->
+                                                                    <!--==== Delete Modal==== -->
+                                                                    <div class="modal fade" id="deleteModal1" tabindex="-1" aria-labelledby="deleteModal1Label" aria-hidden="true">
+                                                                        <div class="modal-dialog modal-dialog-scrollable">
+                                                                            <div class="modal-content">
+                                                                                <div class="modal-header">
+                                                                                    <h2 style="margin-left: 32%;">Are you Sure?</h2>
+                                                                                    <br>
+                                                                                
+                                                                                </div>
+                                                        
+                                                                                <div class="modal-body" align="Center">
+                                                                                    <div><i style="color: red; font-size: 40px; font-weight: 800;" class="mdi mdi-close" ></i></div>
+                                                            
+                                                                                    <p>Do you really want to delete this Subject?<br>Please note that this process cannot be reversed</p>
+                                                                                </div>
+                                                        
+                                                                                <div align="Center" style="margin-bottom: 40px;">
+                                                                                    <button type="button" class="btn chimaProceedBtn">Cancel</button>
+                                                                                    <button type="button" class="btn chimaCancelBtn" style="width: 120px;" data-dismiss="modal">Yes! Delete</button>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <!--==== Delete Modal==== -->
+                                                                    <!--========================================================================================-->
+                                                                    <!--========================================================================================-->
+                                                                    <!--========================================================================================-->
+                                                                                                                                                                      
+                                                            
+                                                                <h2 style="margin-top: 20px; color: black;">Subject Settings</h2>
+                                                           
+                                                                <form style="margin-top: 10px; float: right; margin-left: 50px;">
+                                                                    <div class="form-group">
+                                                                        <select class="form-control">
+                                                                            <option >Select School</option>
+                                                                        </select>
+                                                                    </div>                                                                                                                                                                                                        
+                                                                </form>
+                                                          
+                                                        
+                                                            <div class="table-responsive m-t-40">
+                                                                <table id="chimaTable" class="table display table-striped">
+                                                                    <thead>
+                                                                        <tr>
+                                                                            <th>
+                                                                                <input name="allSchool" type="checkbox" id="md_checkbox_25" class="filled-in chk-col-blue"/>
+                                                                                <label style="margin-bottom: -10px;" for="md_checkbox_25"></label>
+                                                                            </th>
+                                                                            <th>Subjects</th>
+                                                                            <th>Action <a href="#" data-toggle="modal" data-target="#deleteModal1" style="color: red;" ><i class="fa fa-trash"></i> <span style="font-weight: lighter;">Delete (0)</span></a></th>
+                                                                            
+                                                                        </tr>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>  
+                                                                                <input name="Pre Nursery" type="checkbox" id="md_checkbox_26" class="filled-in chk-col-blue" />
+                                                                                <label style="margin-bottom: -10px;" for="md_checkbox_26"></label>
+                                                                            </td>
+                                                                            <td>English</td>
+                                                                            <td><a href="#" style="color: red;" data-toggle="modal" data-target="#deleteModal1" ><i class="fa fa-close"></i> <span>Remove</span></a></td>
+                                                                            
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>  
+                                                                                <input name="Nursery" type="checkbox" id="md_checkbox_27" class="filled-in chk-col-blue" />
+                                                                                <label style="margin-bottom: -10px;" for="md_checkbox_27"></label>
+                                                                            </td>
+                                                                            <td>Maths</td>
+                                                                            <td><a href="#" style="color: red;" data-toggle="modal" data-target="#deleteModal1" ><i class="fa fa-close"></i> <span>Remove</span></a></td>
+                                                                            
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>  
+                                                                                <input name="Primary" type="checkbox" id="md_checkbox_28" class="filled-in chk-col-blue" />
+                                                                                <label style="margin-bottom: -10px;" for="md_checkbox_28"></label>
+                                                                            </td>
+                                                                            <td>Computer</td>
+                                                                            <td><a href="#" style="color: red;" data-toggle="modal" data-target="#deleteModal1" ><i class="fa fa-close"></i> <span>Remove</span></a></td>
+                                                                                                                                    
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>  
+                                                                                <input name="Junior Secondary" type="checkbox" id="md_checkbox_29" class="filled-in chk-col-blue" />
+                                                                                <label style="margin-bottom: -10px;" for="md_checkbox_29"></label>
+                                                                            </td>
+                                                                            <td>Social Studies</td>
+                                                                            <td><a href="#" style="color: red;" data-toggle="modal" data-target="#deleteModal1" ><i class="fa fa-close"></i> <span>Remove</span></a></td>
+                                                                                                                                    
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>  
+                                                                                <input name="Senior Secondary" type="checkbox" id="md_checkbox_30" class="filled-in chk-col-blue" />
+                                                                                <label style="margin-bottom: -10px;" for="md_checkbox_30"></label>
+                                                                            </td>
+                                                                            <td>Civil Education</td>
+                                                                            <td><a href="#" style="color: red;" data-toggle="modal" data-target="#deleteModal1" ><i class="fa fa-close"></i> <span>Remove</span></a></td>
+                                                                                    
+                                                                        </tr>
+                                                                                                                        
+                                                                    </tbody>
+                                                                </table>
+                                                            </div>
+                                                                                    
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                     <!--=================Subject Setting==============-->
+                                    <!--==================================================-->
+                                    <!--==================================================-->
+                                    <!--==================================================-->
+
+
+                                    <!--==================================================-->
+                                    <!--==================================================-->
+                                    <!--==================================================-->
+                                    <!--Classe Setting-->
+                                    <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab"> 
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <div class="card">
+                                                    <div class="card-body">
+                        
+                                                        <div class="button-group">
+                                                            <button type="button" class="btn waves-effect waves-light btn-rounded btn-outline-info" style="font-size: 13px;"><i class="fa fa-file-excel-o"></i><span style="margin-left: 5px;">CSV</span></button>
+                                                            <button type="button" class="btn waves-effect waves-light btn-rounded btn-outline-info" style="font-size: 13px;"><i class="fa fa-file-pdf-o"></i><span style="margin-left: 5px;">PDF</span></button>
+                                                            <button type="button" class="btn waves-effect waves-light btn-rounded btn-outline-info" style="font-size: 13px;"><i class="fa fa-print"></i><span style="margin-left: 5px;">Print</span></button>
+                                                        </div>
+                                                        
+                                                        <div class="button-group" style="float: right; margin-top: -38px;">
+                                                            <button type="button" data-toggle="modal" data-target="#addClassModal" class="btn waves-effect waves-light btn-rounded btn-outline-info" style="font-size: 13px;"><i class="fa fa-plus"></i><span style="margin-left: 5px;">Add Class</span></button> 
+                                                        </div>
+                                                        
+                                                        <!---Modal Secton-->
+                                                                    <!--========================================================================================-->
+                                                                    <!--========================================================================================-->
+                                                                    <!--========================================================================================-->
+                                                                    <!--==== Create Subject Modal==== -->
+                                                                    <div class="modal fade" id="addClassModal" tabindex="-1" aria-labelledby="addClassModalLabel" aria-hidden="true">
+                                                                        <div class="modal-dialog modal-dialog-scrollable">
+                                                                            <div class="modal-content">
+                                                                                <div class="modal-header">
+                                                                                    <h3 style="color: black; margin-left: 33%; font-weight: 500;">Create Class</h3>
+                                                            
+                                                                                </div>
+                                                        
+                                                                                <div class="modal-body">
+                                                        
+                                                                                    <div class="row">
+                                                                                        <div class="col-sm-12 col-xs-12">
+                                                                                                                                                                
+                                                                                            <form>
+                                                                                                <div class="form-group">
+                                                                                                    <label>School/Grade</label>
+                                                                                                    <select class="form-control">
+                                                                                                        <option >Select School/Grade</option>
+                                                                                                        
+                                                                                                    </select>
+                                                                                                </div>
+
+                                                                                                <div class="form-group">
+                                                                                                    <label>Class Name</label>
+                                                                                                    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Enter Class Name">
+                                                                                                </div>                                              
+                                                                                                                                                                                                   
+                                                                                            </form>
+                                                                                        </div>
+                                                                                    </div>
+                                                        
+                                                                                    <div class="row" style="margin-top: 10px;">
+                                                                                        <div class="col-md-12">
+
+                                                                                            <div class="accordion" id="accordionExample">
+                                                                                                <div>
+                                                                                                    <div id="headingOne">
+                                                                                                        <h2 class="mb-0">
+                                                                                                        <button class="btn btn-link btn-block text-left" style="color: black;" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                                                                            <i class="fa fa-plus"></i> Select Form Teacher
+                                                                                                        </button>
+                                                                                                        </h2>
+                                                                                                    </div>
+                                                                                              
+                                                                                                    <div id="collapseOne" class="card collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                                                                                        <div class="card-body" style="border: black; border: 1px; border-style: solid;">
+
+                                                                                                            <div class="form-group" style="width: 150px; height: 50px;">
+                                                                                                                
+                                                                                                                <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Name Filter">
+                                                                                                            </div>
+
+                                                                                                            <div class="demo-checkbox">
+                                                                                                                <input type="checkbox" value="Chima Izu" name="Chima Izu" id="md_checkbox_31" class="filled-in chk-col-blue"/>
+                                                                                                                <label for="md_checkbox_31">Chima Izu</label>
+                
+                                                                                                                <input type="checkbox" value="Grace Madu" name="Grace Madu" id="md_checkbox_32" class="filled-in chk-col-blue"/>
+                                                                                                                <label for="md_checkbox_32">Grace Madu</label>
+                                                                            
+                                                                                                                <input type="checkbox" value="Amina Abubaka" name="Amina Abubaka" id="md_checkbox_33" class="filled-in chk-col-blue"/>
+                                                                                                                <label for="md_checkbox_33">Amina Abubaka</label>
+                                                                            
+                                                                                                                <input type="checkbox" value="Jacob Obi" name="Jacob Obi" id="md_checkbox_34" class="filled-in chk-col-blue"/>
+                                                                                                                <label for="md_checkbox_34">Jacob Obi</label>
+                                                                            
+                                                                                                                <input type="checkbox" value="Martin James" name="Martin James" id="md_checkbox_35" class="filled-in chk-col-blue"/>
+                                                                                                                <label for="md_checkbox_35">Martin James</label>
+                                                                            
+                                                                                                                <input type="checkbox" value="Peter Ebuka" name="Peter Ebuka" id="md_checkbox_36" class="filled-in chk-col-blue" />
+                                                                                                                <label for="md_checkbox_36">Peter Ebuka</label>
+                                                                            
+                                                                                                                <input type="checkbox"  value="Dayo Ola" name="Dayo Ola" id="md_checkbox_37" class="filled-in chk-col-blue"/>
+                                                                                                                <label for="md_checkbox_37">Dayo Ola</label>
+                                                                            
+                                                                                                                <input type="checkbox" value="Peter Charles" name="Peter Charles" id="md_checkbox_38" class="filled-in chk-col-blue"/>
+                                                                                                                <label for="md_checkbox_38">Peter Charles</label>
+                                                                            
+                                                                                                                <input type="checkbox" value="John James" name="John James" id="md_checkbox_39" class="filled-in chk-col-blue"/>
+                                                                                                                <label for="md_checkbox_39">John James</label>
+                                                                            
+                                                                                                            </div>
+
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+
+                                                                                                <div>
+                                                                                                    <div id="headingTwo">
+                                                                                                        <h2 class="mb-0">
+                                                                                                        <button class="btn btn-link btn-block text-left collapsed" style="color: black;" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                                                                            <i class="fa fa-plus"></i> Select Subject
+                                                                                                        </button>
+                                                                                                        </h2>
+                                                                                                    </div>
+
+                                                                                                    <div id="collapseTwo" class="card collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                                                                                        <div class="card-body" style="border: black; border: 1px; border-style: solid;">
+
+                                                                                                            
+                                                                                                            <div class="form-group" style="width: 150px; height: 50px;">
+                                                                                                                
+                                                                                                                <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Name Filter">
+                                                                                                            </div>
+
+                                                                                                            <div class="demo-checkbox">
+                                                                                                                <input type="checkbox" value="CRS" name="CRS" id="md_checkbox_40" class="filled-in chk-col-blue"/>
+                                                                                                                <label for="md_checkbox_40">CRS</label>
+                
+                                                                                                                <input type="checkbox" value="English" name="English" id="md_checkbox_41" class="filled-in chk-col-blue"/>
+                                                                                                                <label for="md_checkbox_41">English</label>
+                                                                            
+                                                                                                                <input type="checkbox" value="Computer" name="Computer" id="md_checkbox_42" class="filled-in chk-col-blue"/>
+                                                                                                                <label for="md_checkbox_42">Computer</label>
+                                                                            
+                                                                                                                <input type="checkbox" value="Home Economic" name="Home Economic" id="md_checkbox_43" class="filled-in chk-col-blue"/>
+                                                                                                                <label for="md_checkbox_43">Home Economic</label>
+                                                                            
+                                                                                                                <input type="checkbox" value="Agricultural Science" name="Agricultural Science" id="md_checkbox_44" class="filled-in chk-col-blue"/>
+                                                                                                                <label for="md_checkbox_44">Agricultural Science</label>
+                                                                            
+                                                                                                                <input type="checkbox"  value="Maths" name="Maths" id="md_checkbox_45" class="filled-in chk-col-blue" />
+                                                                                                                <label for="md_checkbox_45">Maths</label>
+                                                                            
+                                                                                                                <input type="checkbox"  value="Civil Education" name="Civil Education" id="md_checkbox_46" class="filled-in chk-col-blue"/>
+                                                                                                                <label for="md_checkbox_46">Civil Education</label>
+                                                                            
+                                                                                                                <input type="checkbox"  value="Social Studies" name="Social Studies" id="md_checkbox_47" class="filled-in chk-col-blue"/>
+                                                                                                                <label for="md_checkbox_47">Social Studies</label>
+                                                                            
+                                                                                                                <input type="checkbox" value="Chemistry" name="Chemistry" id="md_checkbox_48" class="filled-in chk-col-blue"/>
+                                                                                                                <label for="md_checkbox_48">Chemistry</label>
+                                                                            
+                                                                                                            </div>
+
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                                
+                                                                                            </div>
+                                                                                        </div>                                                               
+                                                                                    </div>
+                                                        
+                                                                                
+                                                                                </div>
+                                                        
+                                                                                <div style="margin-bottom: 40px;">
+                                                                                    <button type="button" class="btn chimaCancelBtn1" data-dismiss="modal">Close</button>
+                                                                                    <button type="button" style="width: 150px;" class="btn chimaSubmitBtn">Save</button>
+                                                                                    
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <!--==== Create Subject Modal==== -->
+                                                                    <!--========================================================================================-->
+                                                                    <!--========================================================================================-->
+                                                                    <!--========================================================================================-->
+                                                        
+                                                                    <!--========================================================================================-->
+                                                                    <!--========================================================================================-->
+                                                                    <!--========================================================================================-->
+                                                                    <!--==== Delete Class Modal==== -->
+                                                                    <div class="modal fade" id="deleteClassModal" tabindex="-1" aria-labelledby="deleteClassModalLabel" aria-hidden="true">
+                                                                        <div class="modal-dialog modal-dialog-scrollable">
+                                                                            <div class="modal-content">
+                                                                                <div class="modal-header">
+                                                                                    <h2 style="margin-left: 30%;">Are you Sure?</h2>
+                                                                                    <br>
+                                                                                
+                                                                                </div>
+                                                        
+                                                                                <div class="modal-body" align="Center">
+                                                                                    <div><i style="color: red; font-size: 40px;" class="mdi mdi-close" ></i></div>
+                                                            
+                                                                                    <p>Do you really want to delete this Record?<br>Please note that this process cannot be reversed</p>
+                                                                                </div>
+                                                        
+                                                                                <div align="Center" style="margin-bottom: 40px;">
+                                                                                    <button type="button" class="btn chimaProceedBtn">Cancel</button>
+                                                                                    <button type="button" class="btn chimaCancelBtn" style="width: 120px;" data-dismiss="modal">Yes! Delete</button>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <!--==== Delete Class Modal==== -->
+                                                                    <!--========================================================================================-->
+                                                                    <!--========================================================================================-->
+                                                                    <!--========================================================================================-->
+
+                                                                     <!--========================================================================================-->
+                                                                    <!--========================================================================================-->
+                                                                    <!--========================================================================================-->
+                                                                    <!--==== Assign Form Teacher Modal==== -->
+                                                                    <div class="modal fade" id="assignFormTeacherModal" tabindex="-1" aria-labelledby="assignFormTeacherModalLabel" aria-hidden="true">
+                                                                        <div class="modal-dialog modal-dialog-scrollable">
+                                                                            <div class="modal-content">
+                                                                                <div class="modal-header">
+                                                                                    <h3 style="color: black; margin-left: 28%; font-weight: 500;">Assign Form Teacher</h3>
+                                                            
+                                                                                </div>
+                                                        
+                                                                                <div class="modal-body">
+                                                                                                                
+                                                                                    <div class="row" style="margin-top: 10px;">
+                                                                                        <div class="col-md-12">
+
+                                                                                            <div class="accordion" id="accordionExample">
+                                                                                                <div>
+                                                                                                    <div id="headingOneChima">
+                                                                                                        <h2 class="mb-0">
+                                                                                                        <button class="btn btn-link btn-block text-left" style="color: black;" type="button" data-toggle="collapse" data-target="#collapseOneChima" aria-expanded="true" aria-controls="collapseOneChima">
+                                                                                                            <i class="fa fa-plus"></i> Select Form Teacher
+                                                                                                        </button>
+                                                                                                        </h2>
+                                                                                                    </div>
+                                                                                              
+                                                                                                    <div id="collapseOneChima" class="card collapse" aria-labelledby="headingOneChima" data-parent="#accordionExample">
+                                                                                                        <div class="card-body" style="border: black; border: 1px; border-style: solid;">
+
+                                                                                                            <div class="form-group" style="width: 150px; height: 50px;">
+                                                                                                                
+                                                                                                                <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Name Filter">
+                                                                                                            </div>
+
+                                                                                                            <div class="demo-checkbox">
+                                                                                                                <input type="checkbox" value="Chima Izu" name="Chima Izu" id="md_checkbox_49" class="filled-in chk-col-blue"/>
+                                                                                                                <label for="md_checkbox_49">Chima Izu</label>
+                
+                                                                                                                <input type="checkbox" value="Grace Madu" name="Grace Madu" id="md_checkbox_50" class="filled-in chk-col-blue"/>
+                                                                                                                <label for="md_checkbox_50">Grace Madu</label>
+                                                                            
+                                                                                                                <input type="checkbox" value="Amina Abubaka" name="Amina Abubaka" id="md_checkbox_51" class="filled-in chk-col-blue"/>
+                                                                                                                <label for="md_checkbox_51">Amina Abubaka</label>
+                                                                            
+                                                                                                                <input type="checkbox" value="Jacob Obi" name="Jacob Obi" id="md_checkbox_52" class="filled-in chk-col-blue"/>
+                                                                                                                <label for="md_checkbox_52">Jacob Obi</label>
+                                                                            
+                                                                                                                <input type="checkbox" value="Martin James" name="Martin James" id="md_checkbox_53" class="filled-in chk-col-blue"/>
+                                                                                                                <label for="md_checkbox_53">Martin James</label>
+                                                                            
+                                                                                                                <input type="checkbox" value="Peter Ebuka" name="Peter Ebuka" id="md_checkbox_54" class="filled-in chk-col-blue" />
+                                                                                                                <label for="md_checkbox_54">Peter Ebuka</label>
+                                                                            
+                                                                                                                <input type="checkbox"  value="Dayo Ola" name="Dayo Ola" id="md_checkbox_55" class="filled-in chk-col-blue"/>
+                                                                                                                <label for="md_checkbox_55">Dayo Ola</label>
+                                                                            
+                                                                                                                <input type="checkbox" value="Peter Charles" name="Peter Charles" id="md_checkbox_56" class="filled-in chk-col-blue"/>
+                                                                                                                <label for="md_checkbox_56">Peter Charles</label>
+                                                                            
+                                                                                                                <input type="checkbox" value="John James" name="John James" id="md_checkbox_57" class="filled-in chk-col-blue"/>
+                                                                                                                <label for="md_checkbox_57">John James</label>
+                                                                            
+                                                                                                            </div>
+
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+
+                                                                                                <div>
+                                                                                                    <div id="headingThree">
+                                                                                                        <h2 class="mb-0">
+                                                                                                        <button class="btn btn-link btn-block text-left collapsed" style="color: black;" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                                                                            <i class="fa fa-plus"></i> Select Subject
+                                                                                                        </button>
+                                                                                                        </h2>
+                                                                                                    </div>
+
+                                                                                                    <div id="collapseThree" class="card collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                                                                                        <div class="card-body" style="border: black; border: 1px; border-style: solid;">
+
+                                                                                                            
+                                                                                                            <div class="form-group" style="width: 150px; height: 50px;">
+                                                                                                                
+                                                                                                                <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Name Filter">
+                                                                                                            </div>
+
+                                                                                                            <div class="demo-checkbox">
+                                                                                                                <input type="checkbox" value="CRS" name="CRS" id="md_checkbox_58" class="filled-in chk-col-blue"/>
+                                                                                                                <label for="md_checkbox_58">CRS</label>
+                
+                                                                                                                <input type="checkbox" value="English" name="English" id="md_checkbox_59" class="filled-in chk-col-blue"/>
+                                                                                                                <label for="md_checkbox_59">English</label>
+                                                                            
+                                                                                                                <input type="checkbox" value="Computer" name="Computer" id="md_checkbox_60" class="filled-in chk-col-blue"/>
+                                                                                                                <label for="md_checkbox_60">Computer</label>
+                                                                            
+                                                                                                                <input type="checkbox" value="Home Economic" name="Home Economic" id="md_checkbox_61" class="filled-in chk-col-blue"/>
+                                                                                                                <label for="md_checkbox_61">Home Economic</label>
+                                                                            
+                                                                                                                <input type="checkbox" value="Agricultural Science" name="Agricultural Science" id="md_checkbox_62" class="filled-in chk-col-blue"/>
+                                                                                                                <label for="md_checkbox_62">Agricultural Science</label>
+                                                                            
+                                                                                                                <input type="checkbox"  value="Maths" name="Maths" id="md_checkbox_63" class="filled-in chk-col-blue" />
+                                                                                                                <label for="md_checkbox_63">Maths</label>
+                                                                            
+                                                                                                                <input type="checkbox"  value="Civil Education" name="Civil Education" id="md_checkbox_64" class="filled-in chk-col-blue"/>
+                                                                                                                <label for="md_checkbox_64">Civil Education</label>
+                                                                            
+                                                                                                                <input type="checkbox"  value="Social Studies" name="Social Studies" id="md_checkbox_65" class="filled-in chk-col-blue"/>
+                                                                                                                <label for="md_checkbox_65">Social Studies</label>
+                                                                            
+                                                                                                                <input type="checkbox" value="Chemistry" name="Chemistry" id="md_checkbox_66" class="filled-in chk-col-blue"/>
+                                                                                                                <label for="md_checkbox_66">Chemistry</label>
+                                                                            
+                                                                                                            </div>
+
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                                
+                                                                                            </div>
+                                                                                        </div>                                                               
+                                                                                    </div>
+                                                        
+                                                                                
+                                                                                </div>
+                                                        
+                                                                                <div style="margin-bottom: 40px;">
+                                                                                    <button type="button" class="btn chimaCancelBtn1" data-dismiss="modal">Close</button>
+                                                                                    <button type="button" style="width: 150px;" class="btn chimaSubmitBtn">Save</button>
+                                                                                    
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <!--==== Assign Form Teacher Modal==== -->
+                                                                    <!--========================================================================================-->
+                                                                    <!--========================================================================================-->
+                                                                    <!--========================================================================================-->
+
+                                                                      <!--========================================================================================-->
+                                                                    <!--========================================================================================-->
+                                                                    <!--========================================================================================-->
+                                                                    <!--==== Assign Subject Teacher Modal==== -->
+                                                                    <div class="modal fade" id="assignSubjectTeacherModal" tabindex="-1" aria-labelledby="assignSubjectTeacherModalLabel" aria-hidden="true">
+                                                                        <div class="modal-dialog modal-dialog-scrollable">
+                                                                            <div class="modal-content">
+                                                                                <div class="modal-header">
+                                                                                    <h3 style="color: black; margin-left: 25%; font-weight: 500;">Assign Subject Teacher</h3>
+                                                            
+                                                                                </div>
+                                                        
+                                                                                <div class="modal-body">
+                                                                                                                
+                                                                                    <div class="row" style="margin-top: 10px;">
+                                                                                        <div class="col-md-12">
+
+                                                                                            <div class="table-responsive">
+                                                                                                <table class="table">
+                                                                                                    <thead>
+                                                                                                        <tr>
+                                                                                                            <th style="font-weight: 700;">#</th>
+                                                                                                            <th style="font-weight: 700;">Subject</th>
+                                                                                                            <th style="font-weight: 700;">Teacher</th>
+                                                                                                          
+                                                                                                        </tr>
+                                                                                                    </thead>
+                                                                                                    <tbody>
+                                                                                                        <tr>
+                                                                                                            <td>1</td>
+                                                                                                            <td>Maths</td>
+                                                                                                            <td>
+                                                                                                                <div class="form-group">
+                                                                                                                    <select class="form-control">
+                                                                                                                        <option>Choose Subject Teacher</option>
+                                                                                                                    </select>
+                                                                                                                </div>
+                                                                                                            </td>
+                                                                                                            
+                                                                                                        </tr>
+                                                                                                        <tr>
+                                                                                                            <td>2</td>
+                                                                                                            <td>English Language</td>
+                                                                                                            <td>
+                                                                                                                <div class="form-group">
+                                                                                                                    <select class="form-control">
+                                                                                                                        <option>Choose Subject Teacher</option>
+                                                                                                                    </select>
+                                                                                                                </div>
+                                                                                                            </td>
+                                                                                                           
+                                                                                                        </tr>
+                                                                                                        <tr>
+                                                                                                            <td>3</td>
+                                                                                                            <td>Computer</td>
+                                                                                                            <td>
+                                                                                                                <div class="form-group">
+                                                                                                                    <select class="form-control">
+                                                                                                                        <option>Choose Subject Teacher</option>
+                                                                                                                    </select>
+                                                                                                                </div>
+                                                                                                            </td>
+                                                                                                        </tr>
+                                                                                                        <tr>
+                                                                                                            <td>4</td>
+                                                                                                            <td>Civil Education</td>
+                                                                                                            <td>
+                                                                                                                <div class="form-group">
+                                                                                                                    <select class="form-control">
+                                                                                                                        <option>Choose Subject Teacher</option>
+                                                                                                                    </select>
+                                                                                                                </div>
+                                                                                                            </td>
+                                                                                                        </tr>
+                                                                                                        <tr>
+                                                                                                            <td>5</td>
+                                                                                                            <td>History</td>
+                                                                                                            <td>
+                                                                                                                <div class="form-group">
+                                                                                                                    <select class="form-control">
+                                                                                                                        <option>Choose Subject Teacher</option>
+                                                                                                                    </select>
+                                                                                                                </div>
+                                                                                                            </td>
+                                                                                                            
+                                                                                                        </tr>
+                                                                                                       
+                                                                                                    </tbody>
+                                                                                                </table>
+                                                                                            </div>
+
+                                                                                           
+                                                                                        </div>                                                               
+                                                                                    </div>
+                                                        
+                                                                                
+                                                                                </div>
+                                                        
+                                                                                <div style="margin-bottom: 40px;">
+                                                                                    <button type="button" class="btn chimaCancelBtn1" data-dismiss="modal">Close</button>
+                                                                                    <button type="button" style="width: 150px;" class="btn chimaSubmitBtn">Save</button>
+                                                                                    
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <!--==== Assign Subject Teacher Modal==== -->
+                                                                    <!--========================================================================================-->
+                                                                    <!--========================================================================================-->
+                                                                    <!--========================================================================================-->
+
+                                                                      <!--========================================================================================-->
+                                                                    <!--========================================================================================-->
+                                                                    <!--========================================================================================-->
+                                                                    <!--==== Assign Result Type Modal==== -->
+                                                                    <div class="modal fade" id="assignResultModal" tabindex="-1" aria-labelledby="assignResultModalLabel" aria-hidden="true">
+                                                                        <div class="modal-dialog modal-dialog-scrollable">
+                                                                            <div class="modal-content">
+                                                                                <div class="modal-header">
+                                                                                    <h3 style="color: black; margin-left: 30%; font-weight: 500;">Assign Result Type</h3>
+                                                            
+                                                                                </div>
+                                                        
+                                                                                <div class="modal-body">
+                                                                                                                
+                                                                                    <div class="row" style="margin-top: 10px;">
+                                                                                        <div class="col-md-12">
+
+                                                                                            <form>
+                                                                                                <div class="form-group">
+                                                                                                    <label>Result Type</label>
+                                                                                                    <select class="form-control">
+                                                                                                        <option >Select Result Type</option>
+                                                                                                        <option value="Numeric">Numeric</option>
+                                                                                                        <option >Ahfabetical</option>
+                                                                                                    </select>
+                                                                                                </div>
+                                                                                            </form>
+
+                                                                                        </div>                                                               
+                                                                                    </div>
+                                                        
+                                                                                
+                                                                                </div>
+                                                        
+                                                                                <div style="margin-bottom: 40px;">
+                                                                                    <button type="button" class="btn chimaCancelBtn1" data-dismiss="modal">Close</button>
+                                                                                    <button type="button" style="width: 150px;" class="btn chimaSubmitBtn">Save</button>
+                                                                                    
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <!--==== Assign Result Type Modal==== -->
+                                                                    <!--========================================================================================-->
+                                                                    <!--========================================================================================-->
+                                                                    <!--========================================================================================-->
+                                                                                                                                                                      
+                                                            
+                                                                <h2 style="margin-top: 20px; color: black;">Class Settings</h2>
+
+                                                                <form style="margin-top: 10px; float: right; margin-right: 0px;">
+                                                                    <div class="form-group">
+                                                                        <a href="#" type="button" class="btn chimaNormalBtn" style="width: 80px;">
+                                                                            <span style="font-size: 13px;">Load</span>
+                                                                        </a>
+                                                                    </div>                                                                                                                                                                                                        
+                                                                </form>
+
+                                                                <form style="margin-top: 10px; float: right; margin-right: 10px;">
+                                                                    <div class="form-group">
+                                                                        <select class="form-control">
+                                                                            <option >Select Class</option>
+                                                                        </select>
+                                                                    </div>                                                                                                                                                                                                        
+                                                                </form>
+                                                                                                                          
+                                                                <form style="margin-top: 10px; float: right; margin-right: 20px;">
+                                                                    <div class="form-group">
+                                                                        <select class="form-control">
+                                                                            <option >Select School</option>
+                                                                        </select>
+                                                                    </div>                                                                                                                                                                                                        
+                                                                </form>
+
+                                                                
+                                                          
+                                                        
+                                                            <div class="table-responsive m-t-40">
+                                                                <table id="lawrenceTable" class="table display table-striped" style="font-size: 14px;">
+                                                                    <thead>
+                                                                        <tr>
+                                                                            <th>
+                                                                                <input name="allSchool" type="checkbox" id="md_checkbox_76" class="filled-in chk-col-blue"/>
+                                                                                <label style="margin-bottom: -10px;" for="md_checkbox_76"></label>
+                                                                            </th>
+                                                                            <th>School</th>
+                                                                            <th>Class</th>
+                                                                            <th>Form Teacher</th>
+                                                                            <th>Subject/Subject Teacher</th>
+                                                                            <th>Result Type</th>
+                                                                            <th>Action <a href="#" data-toggle="modal" data-target="#deleteClassModal" style="color: red;" ><i class="fa fa-trash"></i> <span style="font-weight: lighter;">Delete (0)</span></a></th>
+                                                                            
+                                                                        </tr>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>  
+                                                                                <input name="Pre Nursery" type="checkbox" id="md_checkbox_77" class="filled-in chk-col-blue" />
+                                                                                <label style="margin-bottom: -10px;" for="md_checkbox_77"></label>
+                                                                            </td>
+
+                                                                            <td>Primary</td>
+                                                                            <td>Primary 1</td>
+
+                                                                            <td>
+                                                                                <a href="#" data-toggle="modal" data-target="#assignFormTeacherModal" type="button" style="color: black;">Mr Martins James <i class="fa fa-pencil"></i></a>
+                                                                            </td>
+
+                                                                            <td>
+                                                                                <a href="#" style="color: black;" data-toggle="modal" data-target="#assignSubjectTeacherModal" type="button">Assign Subject Teacher <i class="fa fa-pencil"></i></a>
+                                                                            </td>
+
+                                                                            <td>
+                                                                                <a href="#" style="color: black;" data-toggle="modal" data-target="#assignResultModal" type="button">Assign Result</a>
+                                                                            </td>
+
+                                                                            <td>
+                                                                                <a href="#" style="margin-left: 10px;" data-toggle="modal" data-target="#addClassModal" type="button" >
+                                                                                    <i class="fa fa-pencil" style="color: black;" aria-hidden="true"></i>
+                                                                                </a>
+                                                                                <a href="#" data-toggle="modal" data-target="#deleteClassModal">
+                                                                                    <i class="fa fa-trash-o" style="color: red; margin-left: 20px;" aria-hidden="true"></i>
+                                                                                </a>
+                                                                            </td>
+                                                                        </tr>
+
+
+                                                                        <tr>
+                                                                            <td>  
+                                                                                <input name="Pre Nursery" type="checkbox" id="md_checkbox_78" class="filled-in chk-col-blue" />
+                                                                                <label style="margin-bottom: -10px;" for="md_checkbox_78"></label>
+                                                                            </td>
+
+                                                                            <td>Primary</td>
+                                                                            <td>Primary 1</td>
+
+                                                                            <td>
+                                                                                <a href="#" data-toggle="modal" data-target="#assignFormTeacherModal" type="button" style="color: black;">Assign Form Teacher <i class="fa fa-pencil"></i></a>
+                                                                            </td>
+
+                                                                            <td>
+                                                                                <a href="#" style="color: black;" data-toggle="modal" data-target="#assignSubjectTeacherModal" type="button">Assign Subject Teacher <i class="fa fa-pencil"></i></a>
+                                                                            </td>
+
+                                                                            <td>
+                                                                                <a href="#" style="color: black;" data-toggle="modal" data-target="#assignResultModal" type="button">Assign Result</a>
+                                                                            </td>
+
+                                                                            <td>
+                                                                                <a href="#" style="margin-left: 10px;" data-toggle="modal" data-target="#addClassModal" type="button" >
+                                                                                    <i class="fa fa-pencil" style="color: black;" aria-hidden="true"></i>
+                                                                                </a>
+                                                                                <a href="#" data-toggle="modal" data-target="#deleteClassModal">
+                                                                                    <i class="fa fa-trash-o" style="color: red; margin-left: 20px;" aria-hidden="true"></i>
+                                                                                </a>
+                                                                            </td>
+                                                                        </tr>
+
+                                                                        
+                                                                        <tr>
+                                                                            <td>  
+                                                                                <input name="Pre Nursery" type="checkbox" id="md_checkbox_79" class="filled-in chk-col-blue" />
+                                                                                <label style="margin-bottom: -10px;" for="md_checkbox_79"></label>
+                                                                            </td>
+
+                                                                            <td>Primary</td>
+                                                                            <td>Primary 1</td>
+
+                                                                            <td>
+                                                                                <a href="#" data-toggle="modal" data-target="#assignFormTeacherModal" type="button" style="color: black;">Mr Martins James<i class="fa fa-pencil"></i></a>
+                                                                            </td>
+
+                                                                            <td>
+                                                                                <a href="#" style="color: black;" data-toggle="modal" data-target="#assignSubjectTeacherModal" type="button">Assign Subject Teacher <i class="fa fa-pencil"></i></a>
+                                                                            </td>
+
+                                                                            <td>
+                                                                                <a href="#" style="color: black;" data-toggle="modal" data-target="#assignResultModal" type="button">Assign Result</a>
+                                                                            </td>
+
+                                                                            <td>
+                                                                                <a href="#" style="margin-left: 10px;" data-toggle="modal" data-target="#addClassModal" type="button" >
+                                                                                    <i class="fa fa-pencil" style="color: black;" aria-hidden="true"></i>
+                                                                                </a>
+                                                                                <a href="#" data-toggle="modal" data-target="#deleteClassModal">
+                                                                                    <i class="fa fa-trash-o" style="color: red; margin-left: 20px;" aria-hidden="true"></i>
+                                                                                </a>
+                                                                            </td>
+                                                                        </tr>
+                                                                            
+                                                                        <tr>
+                                                                            <td>  
+                                                                                <input name="Pre Nursery" type="checkbox" id="md_checkbox_80" class="filled-in chk-col-blue" />
+                                                                                <label style="margin-bottom: -10px;" for="md_checkbox_80"></label>
+                                                                            </td>
+
+                                                                            <td>Primary</td>
+                                                                            <td>Primary 1</td>
+
+                                                                            <td>
+                                                                                <a href="#" data-toggle="modal" data-target="#assignFormTeacherModal" type="button" style="color: black;">Mr Martins James<i class="fa fa-pencil"></i></a>
+                                                                            </td>
+
+                                                                            <td>
+                                                                                <a href="#" style="color: black;" data-toggle="modal" data-target="#assignSubjectTeacherModal" type="button">Assign Subject Teacher <i class="fa fa-pencil"></i></a>
+                                                                            </td>
+
+                                                                            <td>
+                                                                                <a href="#" style="color: black;" data-toggle="modal" data-target="#assignResultModal" type="button">Assign Result</a>
+                                                                            </td>
+
+                                                                            <td>
+                                                                                <a href="#" style="margin-left: 10px;" data-toggle="modal" data-target="#addClassModal" type="button" >
+                                                                                    <i class="fa fa-pencil" style="color: black;" aria-hidden="true"></i>
+                                                                                </a>
+                                                                                <a href="#" data-toggle="modal" data-target="#deleteClassModal">
+                                                                                    <i class="fa fa-trash-o" style="color: red; margin-left: 20px;" aria-hidden="true"></i>
+                                                                                </a>
+                                                                            </td>
+                                                                        </tr>
+                                                                                                                        
+                                                                    </tbody>
+                                                                </table>
+                                                            </div>
+                                                                                    
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--Classe Setting-->
+                                    <!--==================================================-->
+                                    <!--==================================================-->
+                                    <!--==================================================-->
+
+
+
+                                    <!--Result Setting-->
+                                    <div class="tab-pane fade" id="v-pills-result" role="tabpanel" aria-labelledby="v-pills-result-tab">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <div class="card">
+                                                    <div class="card-body">
+                        
+                                                        <h3 class="box-title m-b-0" style="color: black;">Result Settings</h3>
+                                                        
+                                                        <div class="row" style="margin-top: 20px;">
+                                                            <div class="col-sm-12 col-xs-12">
+                                                                <form>
+
+                                                                    <div class="form-group">
+                                                                        <label>Catergory of Result</label>
+                                                                        <select class="form-control">
+                                                                            <option>Select Result catergory</option>
+                                                                            <option value="Score Sheet">Score Sheet</option>
+                                                                            <option value="Affective Domain">Affective Domain</option>
+                                                                            <option value="Behavioural Sheet">Behavioural Sheet</option>
+                                                                           
+                                                                        </select>
+                                                                    </div>
+
+                                                                    <div class="form-group">
+                                                                        <label>School/Grade</label>
+                                                                        <select class="form-control">
+                                                                            <option>Select School</option>
+                                                                           
+                                                                        </select>
+                                                                    </div>
+
+                                                                    <div class="form-group">
+                                                                        <label>Number of CA's</label>
+                                                                        <select class="form-control">
+                                                                            <option>Select Number of CA's</option>
+                                                                            <option value="1">1</option>
+                                                                            <option value="2">2</option>
+                                                                            <option value="3">3</option>
+                                                                            <option value="4">4</option>
+                                                                            <option value="5">5</option>
+                                                                        </select>
+                                                                    </div>
+
+                                                                    <div class="row">
+                                                                        <div class="col-md-9">
+                                                                            <div class="form-group">
+                                                                                <label>1st CA</label>
+                                                                                <input type="text" placeholder="1st CA Title" class="form-control"> 
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <div class="col-md-3">
+                                                                            <div class="form-group">
+                                                                                <label>Max</label>
+                                                                                <input type="number" class="form-control"> 
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <div class="row">
+                                                                        <div class="col-md-9">
+                                                                            <div class="form-group">
+                                                                                <label>2nd CA</label>
+                                                                                <input type="text" placeholder="2nd CA Title" class="form-control"> 
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <div class="col-md-3">
+                                                                            <div class="form-group">
+                                                                                <label>Max</label>
+                                                                                <input type="number" class="form-control"> 
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <div class="row">
+                                                                        <div class="col-md-9">
+                                                                            <div class="form-group">
+                                                                                <label>3rd CA</label>
+                                                                                <input type="text" placeholder="3rd CA Title" class="form-control"> 
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <div class="col-md-3">
+                                                                            <div class="form-group">
+                                                                                <label>Max</label>
+                                                                                <input type="number" class="form-control"> 
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <div class="row">
+                                                                        <div class="col-md-9">
+                                                                            <div class="form-group">
+                                                                                <label>4th CA</label>
+                                                                                <input type="text" placeholder="4th CA Title" class="form-control"> 
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <div class="col-md-3">
+                                                                            <div class="form-group">
+                                                                                <label>Max</label>
+                                                                                <input type="number" class="form-control"> 
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <div class="row">
+                                                                        <div class="col-md-9">
+                                                                            <div class="form-group">
+                                                                                <label>5th CA</label>
+                                                                                <input type="text" placeholder="5th CA Title" class="form-control"> 
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <div class="col-md-3">
+                                                                            <div class="form-group">
+                                                                                <label>Max</label>
+                                                                                <input type="number" class="form-control"> 
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <div class="row">
+                                                                        <div class="col-md-8">
+                                                                            <div class="form-group">
+                                                                                <label>Next Term Resumption Date </label>
+                                                                                <input type="date" class="form-control"> 
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <div class="col-md-4">
+                                                                            <div class="form-group">
+                                                                                <label>Next Term Fee</label>
+                                                                                <input type="number" class="form-control"> 
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                  
+                                                                    <h4>Grading System</h4>
+                                                                    <br>
+                                                                    <div class="row">
+                                                                        <div class="col-md-4">
+                                                                            <div class="form-group">
+                                                                                <label>A (Distintion):Above</label>
+                                                                                <input type="number" placeholder="e.g 90" class="form-control"> 
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <div class="col-md-4">
+                                                                            <div class="form-group">
+                                                                                <label>B+ (Very Good):From</label>
+                                                                                <input type="number" placeholder="e.g 80" class="form-control"> 
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <div class="col-md-4">
+                                                                            <div class="form-group">
+                                                                                <label>To</label>
+                                                                                <input type="number" placeholder="e.g 89" class="form-control"> 
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <div class="row">
+                                                                        <div class="col-md-6">
+                                                                            <div class="form-group">
+                                                                                <label>B (Good):From</label>
+                                                                                <input type="number" placeholder="e.g 70" class="form-control"> 
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <div class="col-md-6">
+                                                                            <div class="form-group">
+                                                                                <label>To</label>
+                                                                                <input type="number" placeholder="e.g 79" class="form-control"> 
+                                                                            </div>
+                                                                        </div>
+
+                                                                       
+                                                                    </div>
+
+                                                                    <div class="row">
+                                                                        <div class="col-md-6">
+                                                                            <div class="form-group">
+                                                                                <label>C+ (Fairly Good):From</label>
+                                                                                <input type="number" placeholder="e.g 60" class="form-control"> 
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <div class="col-md-6">
+                                                                            <div class="form-group">
+                                                                                <label>To</label>
+                                                                                <input type="number" placeholder="e.g 69" class="form-control"> 
+                                                                            </div>
+                                                                        </div>
+
+                                                                       
+                                                                    </div>
+
+                                                                    <div class="row">
+                                                                        <div class="col-md-6">
+                                                                            <div class="form-group">
+                                                                                <label>C (Avarage):From</label>
+                                                                                <input type="number" placeholder="e.g 50" class="form-control"> 
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <div class="col-md-6">
+                                                                            <div class="form-group">
+                                                                                <label>To</label>
+                                                                                <input type="number" placeholder="e.g 59" class="form-control"> 
+                                                                            </div>
+                                                                        </div>
+
+                                                                       
+                                                                    </div>
+
+                                                                    <div class="row">
+                                                                        <div class="col-md-6">
+                                                                            <div class="form-group">
+                                                                                <label>D (Weak):From</label>
+                                                                                <input type="number" placeholder="e.g 40" class="form-control"> 
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <div class="col-md-6">
+                                                                            <div class="form-group">
+                                                                                <label>To</label>
+                                                                                <input type="number" placeholder="e.g 49" class="form-control"> 
+                                                                            </div>
+                                                                        </div>
+
+                                                                       
+                                                                    </div>
+
+                                                                    <div class="row">
+                                                                        <div class="col-md-6">
+                                                                            <div class="form-group">
+                                                                                <label>E (Very Weak):Below</label>
+                                                                                <input type="number" placeholder="e.g 40" class="form-control"> 
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <div class="col-md-6">
+                                                                            <div class="form-group">
+                                                                                <label>To</label>
+                                                                                <input type="number" placeholder="e.g 49" class="form-control"> 
+                                                                            </div>
+                                                                        </div>
+
+                                                                       
+                                                                    </div>
+
+                                                                    <h4>Cummulative Percentage</h4>
+                                                                    <br>
+                                                                    <div class="row">
+                                                                        <div class="col-md-4">
+                                                                            <div class="form-group">
+                                                                                <label>1st Term (%)</label>
+                                                                                <input type="number" class="form-control"> 
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <div class="col-md-4">
+                                                                            <div class="form-group">
+                                                                                <label>2nd Term (%)</label>
+                                                                                <input type="number" class="form-control"> 
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <div class="col-md-4">
+                                                                            <div class="form-group">
+                                                                                <label>3rd Term (%)</label>
+                                                                                <input type="number" class="form-control"> 
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                        
+                                                                    <div class="form-group">
+                                                                        <label>Upload Logo:</label>
+                                                                        <input type="file" class="form-control" id="exampleInputFile" aria-describedby="fileHelp">
+                                                                    </div>
+                        
+                        
+                                                                    <button type="submit" class="btn btn-success" id="registarSubmitBtn">Submit</button>
+                                                                    <button type="submit" class="btn btn-inverse waves-effect waves-light" style="width: 100px; margin-top: 30px; border-radius: 30px; margin-left: 10px;">Cancel</button>
+                                                                </form>
+                                                            </div>
+                                                        </div>
+                                                                                    
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--Result Setting-->
+
+                                   
+                                    <!--Customization Setting-->
+                                    <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <div class="card">
+                                                    <div class="card-body">
+                        
+                                                        <h4 class="box-title m-b-0" style="color: black;">School Customization</h4>
+                                                        
+                                                        <div class="row" style="margin-top: 20px;">
+                                                            <div class="col-sm-12 col-xs-12">
+                                                                <form>
+                                                                    <div class="form-group">
+                                                                        <label for="exampleInputName">School Domain:</label>
+                                                                        <input type="url" class="form-control" id="exampleInputName">
+                                                                    </div>
+                                                                    
+                                                                    <div class="form-group">
+                                                                        <label for="exampleInputEmail">School Primary Color:</label>
+                                                                        <input type="color" value="#FE903E" class="form-control">
+                                                                    </div>
+                        
+                                                                    <div class="form-group">
+                                                                        <label for="exampleInputEmail">School Secondary Color:</label>
+                                                                        <input type="color" value="#663366" class="form-control">
+                                                                    </div>
+                        
+                                                                    <div class="form-group">
+                                                                        <label for="exampleInputEmail">School Login Title Color:</label>
+                                                                        <input type="color"   value="#01F497" class="form-control">
+                                                                    </div>
+                        
+                                                                    <div class="form-group">
+                                                                        <label>Upload School Logo:</label>
+                                                                        <input type="file" class="form-control" id="exampleInputFile" aria-describedby="fileHelp">
+                                                                    </div>
+                        
+                                                                    <div class="form-group">
+                                                                        <label>Upload School Login Bg:</label>
+                                                                        <input type="file" class="form-control" id="exampleInputFile" aria-describedby="fileHelp">
+                                                                    </div>
+                        
+                                                                    <div class="form-group">
+                                                                        <label>Upload School Icon:</label>
+                                                                        <input type="file" class="form-control" id="exampleInputFile" aria-describedby="fileHelp">
+                                                                    </div>
+                        
+                        
+                                                                    <button type="submit" class="btn btn-success" id="registarSubmitBtn">Submit</button>
+                                                                    <button type="submit" class="btn btn-inverse waves-effect waves-light" style="width: 100px; margin-top: 30px; border-radius: 30px; margin-left: 10px;">Cancel</button>
+                                                                </form>
+                                                            </div>
+                                                        </div>
+                                                                                    
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                    <!--Customization Setting-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ============================================================== -->
+                <!-- End PAge Content -->
+                <!-- ============================================================== -->
+                <!-- ============================================================== -->
+               
+            </div>
+            <!-- ============================================================== -->
+            <!-- End Container fluid  -->
+            <!-- ============================================================== -->
+            <!-- ============================================================== -->
+            <!-- footer -->
+            <!-- ============================================================== -->
+            <footer class="footer">
+                © Sunshine International School
+                <br>
+                Powered by CHOV LLC
+            </footer>
+            <!-- ============================================================== -->
+            <!-- End footer -->
+            <!-- ============================================================== -->
+        </div>
+        <!-- ============================================================== -->
+        <!-- End Page wrapper  -->
+        <!-- ============================================================== -->
+    </div>
+    <!-- ============================================================== -->
+    <!-- End Wrapper -->
+    <!-- ============================================================== -->
+    <!-- ============================================================== -->
+    <!-- All Jquery -->
+    <!-- ============================================================== -->
+    <script src="../library/plugins/jquery/jquery.min.js"></script>
+    <!-- Bootstrap tether Core JavaScript -->
+    <script src="../library/plugins/bootstrap/js/popper.min.js"></script>
+
+    <script src="../library/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <!-- slimscrollbar scrollbar JavaScript -->
+    <script src="../js/jquery.slimscroll.js"></script>
+    <!--Wave Effects -->
+    <script src="../js/waves.js"></script>
+    <!--Menu sidebar -->
+    <script src="../js/sidebarmenu.js"></script>
+    <!--stickey kit -->
+    <script src="../library/plugins/sticky-kit-master/dist/sticky-kit.min.js"></script>
+    <script src="../library/plugins/sparkline/jquery.sparkline.min.js"></script>
+    <!--Custom JavaScript -->
+    <script src="../js/custom.min.js"></script>
+    <!--morris JavaScript -->
+    <script src="../library/plugins/raphael/raphael-min.js"></script>
+    <script src="../library/plugins/morrisjs/morris.min.js"></script>
+    <!-- sparkline chart -->
+    <!-- Footable -->
+    <script src="../library/plugins/footable/js/footable.all.min.js"></script>
+    <script src="../library/plugins/bootstrap-select/bootstrap-select.min.js" type="text/javascript"></script>
+    <!--FooTable init-->
+    <script src="../js/footable-init.js"></script>
+      <!-- Magnific popup JavaScript -->
+      <script src="../assets/plugins/Magnific-Popup-master/dist/jquery.magnific-popup.min.js"></script>
+      <script src="../assets/plugins/Magnific-Popup-master/dist/jquery.magnific-popup-init.js"></script>
+
+    <script src="../library/plugins/sparkline/jquery.sparkline.min.js"></script>
+    <script src="../js/dashboard4.js"></script>
+    <!-- ============================================================== -->
+    <!-- Style switcher -->
+    <!-- ============================================================== -->
+    <script src="../library/plugins/styleswitcher/jQuery.style.switcher.js"></script>
+    <script src="../library/plugins/datatables/jquery.dataTables.min.js"></script>
+    <!-- start - This is for export functionality only -->
+    <script src="https://cdn.datatables.net/buttons/1.2.2/js/dataTables.buttons.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/1.2.2/js/buttons.flash.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/2.5.0/jszip.min.js"></script>
+    <script src="https://cdn.rawgit.com/bpampuch/pdfmake/0.1.18/build/pdfmake.min.js"></script>
+    <script src="https://cdn.rawgit.com/bpampuch/pdfmake/0.1.18/build/vfs_fonts.js"></script>
+    <script src="https://cdn.datatables.net/buttons/1.2.2/js/buttons.html5.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/1.2.2/js/buttons.print.min.js"></script>
+    <!-- end - This is for export functionality only -->
+ 
+    <script>
+        $(document).ready(function() {
+            $('#myTable').DataTable();
+            $(document).ready(function() {
+                var table = $('#example').DataTable({
+                    "columnDefs": [{
+                        "visible": false,
+                        "targets": 2
+                    }],
+                    "order": [
+                        [2, 'asc']
+                    ],
+                    "displayLength": 25,
+                    "drawCallback": function(settings) {
+                        var api = this.api();
+                        var rows = api.rows({
+                            page: 'current'
+                        }).nodes();
+                        var last = null;
+                        api.column(2, {
+                            page: 'current'
+                        }).data().each(function(group, i) {
+                            if (last !== group) {
+                                $(rows).eq(i).before('<tr class="group"><td colspan="5">' + group + '</td></tr>');
+                                last = group;
+                            }
+                        });
+                    }
+                });
+                // Order by the grouping
+                $('#example tbody').on('click', 'tr.group', function() {
+                    var currentOrder = table.order()[0];
+                    if (currentOrder[0] === 2 && currentOrder[1] === 'asc') {
+                        table.order([2, 'desc']).draw();
+                    } else {
+                        table.order([2, 'asc']).draw();
+                    }
+                });
+            });
+        });
+        $('#example23').DataTable({
+            dom: 'Bfrtip',
+            buttons: [
+                'copy', 'csv', 'excel', 'pdf', 'print'
+            ]
+        });
+        </script>
+
+    <script>
+         $(document).ready(function() {
+            $('#chimaTable').DataTable();
+            $(document).ready(function() {
+                var table = $('#example').DataTable({
+                    "columnDefs": [{
+                        "visible": false,
+                        "targets": 2
+                    }],
+                    "order": [
+                        [2, 'asc']
+                    ],
+                    "displayLength": 25,
+                    "drawCallback": function(settings) {
+                        var api = this.api();
+                        var rows = api.rows({
+                            page: 'current'
+                        }).nodes();
+                        var last = null;
+                        api.column(2, {
+                            page: 'current'
+                        }).data().each(function(group, i) {
+                            if (last !== group) {
+                                $(rows).eq(i).before('<tr class="group"><td colspan="5">' + group + '</td></tr>');
+                                last = group;
+                            }
+                        });
+                    }
+                });
+                // Order by the grouping
+                $('#example tbody').on('click', 'tr.group', function() {
+                    var currentOrder = table.order()[0];
+                    if (currentOrder[0] === 2 && currentOrder[1] === 'asc') {
+                        table.order([2, 'desc']).draw();
+                    } else {
+                        table.order([2, 'asc']).draw();
+                    }
+                });
+            });
+        });
+        $('#example23').DataTable({
+            dom: 'Bfrtip',
+            buttons: [
+                'copy', 'csv', 'excel', 'pdf', 'print'
+            ]
+        });
+    </script>
+
+<script>
+    $(document).ready(function() {
+       $('#lawrenceTable').DataTable();
+       $(document).ready(function() {
+           var table = $('#example').DataTable({
+               "columnDefs": [{
+                   "visible": false,
+                   "targets": 2
+               }],
+               "order": [
+                   [2, 'asc']
+               ],
+               "displayLength": 25,
+               "drawCallback": function(settings) {
+                   var api = this.api();
+                   var rows = api.rows({
+                       page: 'current'
+                   }).nodes();
+                   var last = null;
+                   api.column(2, {
+                       page: 'current'
+                   }).data().each(function(group, i) {
+                       if (last !== group) {
+                           $(rows).eq(i).before('<tr class="group"><td colspan="5">' + group + '</td></tr>');
+                           last = group;
+                       }
+                   });
+               }
+           });
+           // Order by the grouping
+           $('#example tbody').on('click', 'tr.group', function() {
+               var currentOrder = table.order()[0];
+               if (currentOrder[0] === 2 && currentOrder[1] === 'asc') {
+                   table.order([2, 'desc']).draw();
+               } else {
+                   table.order([2, 'asc']).draw();
+               }
+           });
+       });
+   });
+   $('#example23').DataTable({
+       dom: 'Bfrtip',
+       buttons: [
+           'copy', 'csv', 'excel', 'pdf', 'print'
+       ]
+   });
+</script>
+</body>
+
+</html>
+
